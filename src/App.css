@@ -55,10 +55,13 @@
   .user_pic img {
     width: 78px !important;
   }
+  .users_list {
+    height: 350px !important;
+  }
   .user_info {
     margin-left: 1rem;
   }
-  .dump_btn_box  {
-    width: 100%;
+  .main_tabs .dump_btn_box  {
+    width: 100% !important;
   }
 }
