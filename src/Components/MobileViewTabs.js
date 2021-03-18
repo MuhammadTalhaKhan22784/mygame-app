@@ -44,17 +44,6 @@ const MobileViewTabs = () => {
           >
             <div className="users_main">
               <UserListBox />
-              <div className="dump_btn_box">
-                <button type="button" class="btn btn-dark">
-                  Dump all:
-                </button>
-                <button type="button" class="btn btn-dark">
-                  [X]
-                </button>
-                <button type="button" class="btn btn-dark">
-                  [X]
-                </button>
-              </div>
               {/* <div className="users_list_box"></div>
               <div className="users_details_box"></div>
               <div className="dump_btn_box">
@@ -72,19 +61,32 @@ const MobileViewTabs = () => {
           >
             <div className="users_main">
               <UserListBox />
-              <div className="dump_btn_box">
-                <button type="button" class="btn btn-dark">
-                  Dump all:
-                </button>
-                <button type="button" class="btn btn-dark">
-                  [X]
-                </button>
-                <button type="button" class="btn btn-dark">
-                  [X]
-                </button>
-              </div>
             </div>
           </div>
+        </div>
+        <div className="main_details_box">
+          <div className="user_pic">
+            <img
+              src="https://wakeupweekend.ir/wp-content/uploads/2015/11/user-male-shape-in-a-circle-ios-7-interface-symbol_318-35357.jpg"
+              alt=""
+            />
+          </div>
+          <div className="user_info d-flex flex-column w-100">
+            <h2 className="fs-6">Item Name :Lorem Rain</h2>
+            <h2 className="fs-6">Cost: 20$</h2>
+            <h2 className="fs-6">Quantity: 20</h2>
+          </div>
+        </div>
+        <div className="dump_btn_box">
+          <button type="button" class="btn btn-dark">
+            Dump all:
+          </button>
+          <button type="button" class="btn btn-dark">
+            [X]
+          </button>
+          <button type="button" class="btn btn-dark">
+            [X]
+          </button>
         </div>
       </div>
     </React.Fragment>

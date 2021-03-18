@@ -17,7 +17,7 @@ const UserListBox = () => {
             <UserListItems />
           </div>
         </div>
-        <div className="main_details_box">
+        {/* <div className="main_details_box">
           <div className="user_pic">
             <img
               src="https://wakeupweekend.ir/wp-content/uploads/2015/11/user-male-shape-in-a-circle-ios-7-interface-symbol_318-35357.jpg"
@@ -29,7 +29,7 @@ const UserListBox = () => {
             <h2 className="fs-6">Cost: 20$</h2>
             <h2 className="fs-6">Quantity: 20</h2>
           </div>
-        </div>
+        </div> */}
       </div>
     </React.Fragment>
   );
