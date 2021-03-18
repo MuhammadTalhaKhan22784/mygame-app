@@ -59,11 +59,12 @@
 .arrow_icon {
     display: flex;
     line-height: 5rem;
+    margin-top: 80px;
     flex-direction: column;
 }
 .arrow_icon svg {
     font-size: 40px;
-    margin: 3rem 0;
+    margin: 1rem 0;
 }
 .dump_btn_box {
     width: 50%;
