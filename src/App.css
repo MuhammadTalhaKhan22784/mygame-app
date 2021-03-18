@@ -50,16 +50,21 @@
     height: max-content;
   }
   .users_main {
-    height: 95vh;
+    height: max-content;
+    padding-bottom: 2rem;
   }
   .user_pic img {
     width: 78px !important;
   }
   .users_list {
     height: 350px !important;
+    margin-bottom: 3rem;
   }
   .user_info {
     margin-left: 1rem;
+  }
+  .main_details_box {
+    margin: 1.5rem 0;
   }
   .main_tabs .dump_btn_box  {
     width: 100% !important;
