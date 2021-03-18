@@ -1,4 +1,5 @@
 import React from "react";
+import UserListBox from "./UserListBox";
 
 const MobileViewTabs = () => {
   return (
@@ -42,13 +43,25 @@ const MobileViewTabs = () => {
             aria-labelledby="pills-lista-tab"
           >
             <div className="users_main">
-              <div className="users_list_box"></div>
+              <UserListBox />
+              <div className="dump_btn_box">
+                <button type="button" class="btn btn-dark">
+                  Dump all:
+                </button>
+                <button type="button" class="btn btn-dark">
+                  [X]
+                </button>
+                <button type="button" class="btn btn-dark">
+                  [X]
+                </button>
+              </div>
+              {/* <div className="users_list_box"></div>
               <div className="users_details_box"></div>
               <div className="dump_btn_box">
                 <button type="button" class="mt-2 btn btn-secondary">
                   Secondary
                 </button>
-              </div>
+              </div> */}
             </div>
           </div>
           <div
@@ -57,7 +70,20 @@ const MobileViewTabs = () => {
             role="tabpanel"
             aria-labelledby="pills-listb-tab"
           >
-            ...
+            <div className="users_main">
+              <UserListBox />
+              <div className="dump_btn_box">
+                <button type="button" class="btn btn-dark">
+                  Dump all:
+                </button>
+                <button type="button" class="btn btn-dark">
+                  [X]
+                </button>
+                <button type="button" class="btn btn-dark">
+                  [X]
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       </div>

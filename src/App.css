@@ -35,3 +35,30 @@
 .t_list {
     width: 100% !important;
 }
+.main_tabs .main_box {
+  width: 90%;
+}
+.main_tabs .mu_box h2 {
+  display: none;
+}
+
+@media (max-width:629px) {
+  .main_tabs {
+      display: block;
+  }
+  .main_tabs .main_box {
+    height: max-content;
+  }
+  .users_main {
+    height: 95vh;
+  }
+  .user_pic img {
+    width: 78px !important;
+  }
+  .user_info {
+    margin-left: 1rem;
+  }
+  .dump_btn_box  {
+    width: 100%;
+  }
+}
