@@ -19,6 +19,13 @@ const UserListBox = () => {
             <UserListItems />
             <UserListItems />
             <UserListItems />
+            <UserListItems />
+            <UserListItems />
+            <UserListItems />
+            <UserListItems />
+            <UserListItems />
+            <UserListItems />
+            <UserListItems />
           </div>
         </div>
         {/* <div className="main_details_box">

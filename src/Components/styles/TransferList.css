@@ -16,7 +16,7 @@
   margin: 0 auto;
 }
 .mu_box {
-  box-shadow: 1px 2px 8px 2px #80808063;
+  /* box-shadow: 1px 2px 8px 2px #80808063; */
 }
 .users_list {
   width: 100%;
@@ -64,7 +64,8 @@
   flex-direction: column;
 }
 .arrow_icon button {
- background-color: transparent;
+ /* background-color: white;
+ box-shadow: 1px 2px 8px 2px #80808063; */
  border: none;
 }
 .arrow_icon svg {
