@@ -28,7 +28,7 @@
     width: 97%;
     margin: 0.5rem auto;
     padding: 10px;
-    height: 50px;
+    height: 35px;
     background-color: white;
     border: 1px solid #80808012;
     display: flex;
@@ -51,8 +51,7 @@
     margin-left: 2rem !important;
 }
 .main_details_box img {
-    width: 70px;
-    border-radius: 50%;
+    width: 60px;
     margin: 0 0.5rem;
 }
 .arrow_icon {
@@ -68,11 +67,16 @@
 .dump_btn_box {
     width: 50%;
     display: flex;
+    align-items: center;
     justify-content: center;
 }
 .dump_btn_box button {
     border: none;
     margin: 0 1rem;
+}
+.form-check-input {
+    width: 2em;
+    height: 2em;
 }
 
 @media (max-width:690px) {
@@ -86,6 +90,9 @@
     }
     .user_info {
         margin-left: 1rem;
+      }
+      .user_list_item {
+          height: 50px;
       }
 }
 @media (max-width:375px) {
