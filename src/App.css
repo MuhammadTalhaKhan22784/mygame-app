@@ -1,5 +1,5 @@
 body {
-  background-color: #b7d9df21 !important;
+  background-color: #242929de !important;
 }
 .main_tabs {
   width: 100%;
@@ -10,6 +10,7 @@ body {
 }
 .nav-pills .nav-link {
   width: 100%;
+  color: white;
 }
 .users_main {
   padding-top: 1rem;
@@ -83,6 +84,7 @@ body {
   }
   .mbv-arrow svg {
     font-size: 1.5rem !important;
+    color: #ececec;
   }
   .mbv-arrow button {
     background-color: transparent;

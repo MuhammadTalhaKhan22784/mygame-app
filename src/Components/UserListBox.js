@@ -6,7 +6,7 @@ const UserListBox = () => {
     <React.Fragment>
       <div className="main_box">
         <div className="mu_box">
-          <div>
+          <div className="mu_top">
             <h2 className="text-center">List A</h2>
           </div>
           <div className="users_list">

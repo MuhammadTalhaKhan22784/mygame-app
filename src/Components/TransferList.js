@@ -7,6 +7,8 @@ import { HiOutlineChevronDoubleLeft } from "react-icons/hi";
 import UserListBox from "./UserListBox";
 const TransferList = () => {
   return (
+    // box-shadow: 1px 4px 13px 2px rgb(37 23 12 / 31%);
+
     <React.Fragment>
       <div className="user_wrapper">
         <div className="main_users_list">
