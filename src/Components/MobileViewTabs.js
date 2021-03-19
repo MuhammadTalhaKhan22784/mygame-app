@@ -1,4 +1,5 @@
 import React from "react";
+import { HiOutlineChevronDoubleRight } from "react-icons/hi";
 import UserListBox from "./UserListBox";
 
 const MobileViewTabs = () => {
@@ -71,10 +72,15 @@ const MobileViewTabs = () => {
               alt=""
             />
           </div>
-          <div className="user_info d-flex flex-column w-100">
+          <div className="user_info d-flex flex-column">
             <h2 className="fs-6">Item Name :Lorem Rain</h2>
             <h2 className="fs-6">Cost: 20$</h2>
             <h2 className="fs-6">Quantity: 20</h2>
+          </div>
+          <div className="mbv-arrow">
+            <button>
+              <HiOutlineChevronDoubleRight />
+            </button>
           </div>
         </div>
         <div className="dump_btn_box">

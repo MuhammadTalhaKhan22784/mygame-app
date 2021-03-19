@@ -12,8 +12,12 @@ const TransferList = () => {
         <div className="main_users_list">
           <UserListBox />
           <div className="arrow_icon">
-            <HiOutlineChevronDoubleLeft />
-            <HiOutlineChevronDoubleRight />
+            <button>
+              <HiOutlineChevronDoubleLeft />
+            </button>
+            <button>
+              <HiOutlineChevronDoubleRight />
+            </button>
           </div>
           <UserListBox />
         </div>
