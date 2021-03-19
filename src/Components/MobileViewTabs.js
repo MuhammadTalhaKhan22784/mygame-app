@@ -88,12 +88,12 @@ const MobileViewTabs = () => {
               id="inlineCheckbox1"
               defaultValue="option1"
             />
-            <label
+            {/* <label
               className="x-label form-check-label"
               htmlFor="inlineCheckbox1"
             >
               X
-            </label>
+            </label> */}
           </div>
           <div className="dump-form form-check form-check-inline">
             <input
@@ -102,12 +102,12 @@ const MobileViewTabs = () => {
               id="inlineCheckbox2"
               defaultValue="option2"
             />
-            <label
+            {/* <label
               className="x-label form-check-label"
               htmlFor="inlineCheckbox2"
             >
               X
-            </label>
+            </label> */}
           </div>
         </div>
       </div>

@@ -42,9 +42,9 @@ const TransferList = () => {
                 id="inlineCheckbox1"
                 defaultValue="option1"
               />
-              <label className="x-label form-check-label" htmlFor="inlineCheckbox1">
+              {/* <label className="x-label form-check-label" htmlFor="inlineCheckbox1">
                 X
-              </label>
+              </label> */}
             </div>
             <div className="dump-form form-check form-check-inline">
               <input
@@ -53,9 +53,9 @@ const TransferList = () => {
                 id="inlineCheckbox2"
                 defaultValue="option2"
               />
-              <label className="x-label form-check-label" htmlFor="inlineCheckbox2">
+              {/* <label className="x-label form-check-label" htmlFor="inlineCheckbox2">
                 X
-              </label>
+              </label> */}
             </div>
           </div>
         </div>

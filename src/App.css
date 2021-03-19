@@ -78,9 +78,6 @@ body {
   }
 }
 @media (max-width: 425px) {
-  .users_main {
-    height: 62vh;
-  }
   .main_tabs .dump_btn_box {
     padding-bottom: 0.2rem;
   }
