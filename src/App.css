@@ -58,7 +58,7 @@ body {
 @media (max-width: 629px) {
   .main_tabs {
     display: block;
-    height: max-content;
+    height: 100vh;
   }
   .main_tabs .main_box {
     height: max-content;
@@ -75,7 +75,7 @@ body {
     height: 356px !important;
   }
   .main_details_box {
-    margin: 3rem auto 1rem auto;
+    margin: 1.5rem 0;
   }
   .main_tabs .dump_btn_box {
     width: 100% !important;
