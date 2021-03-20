@@ -1,6 +1,4 @@
-body {
-  min-height: 100vh;
-}
+
 * {
   margin: 0;
   padding: 0;
@@ -63,7 +61,7 @@ body {
 @media (max-width: 629px) {
   .main_tabs {
     display: block;
-    min-height: max-content;
+    height: 100vh;
   }
   .main_tabs .main_box {
     height: max-content;
