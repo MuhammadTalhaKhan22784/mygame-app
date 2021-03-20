@@ -18,7 +18,7 @@ const MobileViewTabs = () => {
               aria-controls="pills-lista"
               aria-selected="true"
             >
-              List A
+              Personal
             </button>
           </li>
           <li className="nav-item" role="presentation">
@@ -32,7 +32,7 @@ const MobileViewTabs = () => {
               aria-controls="pills-listb"
               aria-selected="false"
             >
-              List B
+              City
             </button>
           </li>
         </ul>
@@ -75,7 +75,7 @@ const MobileViewTabs = () => {
           <div className="user_info d-flex flex-column">
             <h2 className="fs-6">Item Name :Lorem Rain</h2>
             <h2 className="fs-6">Cost: 20$</h2>
-            <h2 className="fs-6">Quantity: 20</h2>
+            {/* <h2 className="fs-6">Quantity: 20</h2> */}
           </div>
           <div className="mbv-arrow">
             <button>

@@ -7,7 +7,7 @@ const UserListBox = () => {
       <div className="main_box">
         <div className="mu_box">
           <div className="mu_top">
-            <h2 className="text-center">List A</h2>
+            <h2 className="text-center">Personal</h2>
           </div>
           <div className="users_list">
             <UserListItems />

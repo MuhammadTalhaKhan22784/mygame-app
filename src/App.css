@@ -5,7 +5,7 @@
 }
 .main_tabs {
   width: 100%;
-  background-image: url(./assets/Attachment_1616209950.jpeg);
+  background-image: url(./assets/Attachment_1616209950-1.jpeg);
   height: 100%;
   background-size: cover;
   display: none;
@@ -59,7 +59,7 @@
 
 @media (max-width: 629px) {
   .main_tabs {
-    height: 100vh;
+    height: max-content;
     display: block;
   }
   .main_tabs .main_box {
@@ -101,7 +101,7 @@
 }
 @media (max-width: 473px) {
   .mbv-arrow {
-    width: 29%;
+    width: 20%;
   }
   .users_list {
     height: 16%;
@@ -116,15 +116,15 @@
     width: 76%;
   }
   .mbv-arrow {
-    width: 22%;
+    width: 18%;
   }
 }
 @media (max-width: 383px) {
   .mbv-arrow {
-    width: 15%;
+    width: 17%;
   }
   .mbv-arrow svg {
-    font-size: 1.2rem !important;
+    font-size: 2rem !important;
   }
 }
 @media (max-width: 333px) {

@@ -33,7 +33,7 @@ const TransferList = () => {
           <div className="user_info d-flex flex-column w-100">
             <h2 className="fs-6">Item Name :Lorem Rain</h2>
             <h2 className="fs-6">Cost: 20$</h2>
-            <h2 className="fs-6">Quantity: 20</h2>
+            {/* <h2 className="fs-6">Quantity: 20</h2> */}
           </div>
         </div>
         <div className="dump_btn_box">
