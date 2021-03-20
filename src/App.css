@@ -60,8 +60,10 @@
 
 @media (max-width: 629px) {
   .main_tabs {
-    display: block;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
   .main_tabs .main_box {
     height: max-content;
