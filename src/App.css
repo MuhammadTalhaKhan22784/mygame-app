@@ -1,6 +1,11 @@
 body {
   min-height: 100vh;
 }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .main_tabs {
   width: 100%;
   background-image: url(./assets/Attachment_1616209950.jpeg);
@@ -58,7 +63,7 @@ body {
 @media (max-width: 629px) {
   .main_tabs {
     display: block;
-    min-height: 100vh;
+    min-height: max-content;
   }
   .main_tabs .main_box {
     height: max-content;
@@ -66,6 +71,7 @@ body {
   }
   .users_main {
     height: max-content;
+    padding-top: 1.2rem;
     /* padding-bottom: 2rem; */
   }
   .user_pic img {
