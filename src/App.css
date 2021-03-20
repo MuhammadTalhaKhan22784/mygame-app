@@ -56,7 +56,7 @@
 @media (max-width: 629px) {
   .main_tabs {
     display: block;
-    height: 100vh;
+    height: max-content;
   }
   .main_tabs .main_box {
     height: max-content;
@@ -73,7 +73,7 @@
     height: 356px !important;
   }
   .main_details_box {
-    margin: 1.5rem 0;
+    margin: 3rem auto 1rem auto;
   }
   .main_tabs .dump_btn_box {
     width: 100% !important;
