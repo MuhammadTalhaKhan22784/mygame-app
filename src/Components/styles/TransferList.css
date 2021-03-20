@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Telex&display=swap");
+
 .main_users_list {
   width: 100%;
   height: 56%;
@@ -7,18 +9,29 @@
   width: 100%;
   background-image: url(../../assets/Attachment_1616209950-1.jpeg);
   height: 100vh;
-  /* padding-top: 0.6rem; */
   display: flex;
   background-size: cover;
   flex-direction: column;
 }
+.top_text_inven {
+  width: 92%;
+  margin: 0 auto;
+}
+.top_text_inven h2 {
+  margin-top: 4px;
+  color: white;
+  font-family: "Telex", sans-serif;
+  font-weight: bold;
+  font-size: 1.6rem;
+}
 .main_box {
-  width: 40%;
+  width: 39%;
   height: 200px;
   margin: 0 auto;
 }
 .mu_box {
-  margin-top: 10px;
+  width: 91%;
+  margin: 10px auto 0 auto;
   border: 1px solid gray;
   background-color: #090707b0;
 }
@@ -27,6 +40,10 @@
 }
 .mu_top h2 {
   margin: 0;
+  font-size: 1.3rem;
+  padding: 4px 0;
+  font-weight: 500;
+  font-family: "Telex", sans-serif;
 }
 .users_list {
   width: 100%;
@@ -37,16 +54,12 @@
 .user_list_item {
   width: 100%;
   margin: 0 auto;
-  /* padding: 12px; */
   height: 36px;
   color: #949494;
   border: 1px solid gray;
-  /* background-color: white; */
-  /* border: 1px solid #80808012; */
   display: flex;
   justify-content: space-around;
   align-items: center;
-  /* box-shadow: 0px 3px 3px 0px #8888882b; */
 }
 .user_list_item hr {
   width: 37%;
@@ -59,20 +72,29 @@
 .user_list_item img {
   width: 40px;
 }
+.main_details {
+  width: 100%;
+  margin-top: 12px;
+}
 .main_details > h2 {
-  margin: 4px auto;
+  margin: 0px auto;
   width: 92%;
+  font-size: 20px;
+  padding: 5px 0;
+  font-family: "Telex", sans-serif;
   font-weight: bold;
+  text-align: center;
+  background-color: #131313d4;
   color: white;
 }
 .main_details_box {
   width: 92%;
+  height: 80px;
   background-color: #131313d4;
-  height: 100px;
   display: flex;
   border: 1px solid #8080807d;
   box-shadow: 0px 2px 6px -2px #0a0101;
-  margin: 1rem auto 1rem auto;
+  margin: 0rem auto 0.5rem auto;
   align-items: center;
 }
 .user_info {
@@ -85,36 +107,64 @@
   margin: 0 0.5rem;
   object-fit: contain;
 }
+.top_box_btns {
+  width: 152px;
+  height: 224px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.top_black_box {
+  width: 152px;
+  background-color: #000000ab;
+  height: 107px;
+  margin-top: 9px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.top_black_box input {
+  width: 100px;
+  text-align: center;
+}
+.top_black_box button {
+  width: 100px;
+  border: none;
+  font-weight: 500;
+  margin: 5px auto;
+  background-color: white;
+}
 .arrow_icon {
   background-image: url(../../assets/box_image.jpeg);
   display: flex;
-  width: 100px;
-  height: 150px;  
+  justify-content: space-around;
+  width: 152px;
+  height: 100px;
   line-height: 5rem;
-  margin-top: 50px;
+  margin-top: 7px;
+  align-items: center;
   flex-direction: column;
 }
 .arrow_icon button {
-  /* background-color: white;
- box-shadow: 1px 2px 8px 2px #80808063; */
-  background-image: linear-gradient(to bottom, #f1f2f3, #adabac, #8a7d7d9e);
   border: none !important;
   display: flex;
+  padding: 0;
+  height: 41px;
+  justify-content: center;
+  width: 83px;
   border-radius: 3px;
-  /* box-shadow: 2px 3px 4px 1px #ad9ea3; */
-  margin: 20px auto;
+  margin: 3px auto;
   align-items: center;
 }
 .arrow_icon img {
-  /* font-size: 35px; */
-  /* margin: 1rem 0; */
   width: 126px;
   height: 150px;
 }
 .dump_btn_box {
-  width: 50%;
-  /* display: flex; */
-  display: none;
+  width: 100%;
+  display: flex;
   align-items: center;
   justify-content: center;
 }
@@ -139,6 +189,10 @@
   .t_list {
     display: none;
   }
+  .top_text_inven h2 {
+    margin-top: 0;
+    font-size: 22px !important;
+  }
   .user_info {
     margin-left: 1rem;
   }
@@ -155,16 +209,17 @@
     background-color: #111012;
   }
   .main_details_box {
+    margin: 1rem auto 1rem auto;
     width: 92%;
   }
 }
 @media (max-width: 470px) {
   .main_details_box {
-    margin: 2rem auto 1rem auto;
+    margin: 0rem auto 1rem auto;
   }
 }
 @media (max-width: 375px) {
   .user_info {
-    margin-left: 1rem !important;
+    margin-left: 0.2rem !important;
   }
 }

@@ -1,32 +1,30 @@
-// import { formatMs } from "@material-ui/core";
 import React from "react";
 import "./styles/TransferList.css";
-import UserListItems from "./UserListItems";
-import { HiOutlineChevronDoubleRight } from "react-icons/hi";
-import { HiOutlineChevronDoubleLeft } from "react-icons/hi";
 import UserListBox from "./UserListBox";
-import BoxImage from "../assets/box_image.jpeg"
 const TransferList = () => {
   return (
-    // box-shadow: 1px 4px 13px 2px rgb(37 23 12 / 31%);
-
     <React.Fragment>
       <div className="user_wrapper">
+        <div className="top_text_inven">
+          <h2>Inventory</h2>
+        </div>
         <div className="main_users_list">
-          <UserListBox />
-          <div className="arrow_icon">
-            {/* <button>
-              <HiOutlineChevronDoubleLeft />
-            </button>
-            <button>
-              <HiOutlineChevronDoubleRight />
-            </button> */}
-            <button>
-              jkdajskd
-            </button>
-            {/* <img src={BoxImage} alt=""/> */}
+          <UserListBox name="Personal" />
+          <div className="top_box_btns">
+            <div className="top_black_box">
+              <button>Transfer Max</button>
+              <input type="text" placeholder="Qty Input" />
+              <button>Transfer Qty</button>
+            </div>
+            <div className="arrow_icon">
+              <div className="dump_btn_box">
+                <button type="button" class="btn btn-dark">
+                  Dump All
+                </button>
+              </div>
+            </div>
           </div>
-          <UserListBox />
+          <UserListBox name="City" />
         </div>
         <div className="main_details">
           <h2>Items Details</h2>
@@ -40,36 +38,6 @@ const TransferList = () => {
             <div className="user_info d-flex flex-column w-100">
               <h2 className="fs-6">Item Name :Lorem Rain</h2>
               <h2 className="fs-6">Cost: 20$</h2>
-              {/* <h2 className="fs-6">Quantity: 20</h2> */}
-            </div>
-          </div>
-        </div>
-        <div className="dump_btn_box">
-          <button type="button" class="btn btn-dark">
-            Dump all:
-          </button>
-          <div className="d-flex align-items-center">
-            <div className="dump-form form-check form-check-inline">
-              <input
-                className="form-check-input"
-                type="checkbox"
-                id="inlineCheckbox1"
-                defaultValue="option1"
-              />
-              {/* <label className="x-label form-check-label" htmlFor="inlineCheckbox1">
-                X
-              </label> */}
-            </div>
-            <div className="dump-form form-check form-check-inline">
-              <input
-                className="form-check-input"
-                type="checkbox"
-                id="inlineCheckbox2"
-                defaultValue="option2"
-              />
-              {/* <label className="x-label form-check-label" htmlFor="inlineCheckbox2">
-                X
-              </label> */}
             </div>
           </div>
         </div>
