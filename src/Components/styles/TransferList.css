@@ -111,7 +111,7 @@
   }
 }
 @media (max-width: 629px) {
-  .user_wrapper {
+  .t_list {
     display: none;
   }
   .user_info {
