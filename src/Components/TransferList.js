@@ -5,7 +5,7 @@ import UserListItems from "./UserListItems";
 import { HiOutlineChevronDoubleRight } from "react-icons/hi";
 import { HiOutlineChevronDoubleLeft } from "react-icons/hi";
 import UserListBox from "./UserListBox";
-const TransferList = () => {
+const TransferList = () => { 
   return (
     // box-shadow: 1px 4px 13px 2px rgb(37 23 12 / 31%);
 

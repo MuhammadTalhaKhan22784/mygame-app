@@ -1,8 +1,9 @@
-body {
-  background-color: #242929de !important;
-}
+
 .main_tabs {
   width: 100%;
+  background-image: url(./assets/Attachment_1616209950.jpeg);
+  height: 100%;
+  background-size: cover;
   display: none;
 }
 .nav-item {
