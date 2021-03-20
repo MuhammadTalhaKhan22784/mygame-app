@@ -98,7 +98,7 @@
   margin: 0 1rem;
   color: #f3eaeab5;
   font-weight: bold;
-  background-image: linear-gradient(to bottom, #4e5150,#525252,#213535);
+  background-image: linear-gradient(to bottom, #4e5150, #525252, #213535);
 }
 .form-check-input {
   width: 2em;
@@ -128,6 +128,11 @@
   }
   .nav-pills .nav-link.active {
     background-color: #111012;
+  }
+}
+@media (max-width: 470px) {
+  .main_details_box {
+    margin: 2rem auto 1rem auto;
   }
 }
 @media (max-width: 375px) {
