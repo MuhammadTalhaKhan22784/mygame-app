@@ -59,7 +59,7 @@
 
 @media (max-width: 629px) {
   .main_tabs {
-    height: max-content;
+    min-height: 100vh;
     display: block;
   }
   .main_tabs .main_box {
