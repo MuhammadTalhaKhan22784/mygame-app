@@ -1,4 +1,6 @@
-
+body {
+  min-height: 100vh;
+}
 .main_tabs {
   width: 100%;
   background-image: url(./assets/Attachment_1616209950.jpeg);
