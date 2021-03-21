@@ -7,21 +7,21 @@ const Home = () => {
     <div>
       <button
         type="button"
-        class="btn btn-secondary"
+        className="btn btn-secondary"
         onClick={() => {
           history.push("/liberty_preserve");
         }}
       >
-        Secondary
+        Liberty Preserve
       </button>
       <button
         type="button"
-        class="btn btn-success"
+        className="btn btn-success ms-5"
         onClick={() => {
           history.push("/my_game");
         }}
       >
-        Success
+        Inventory
       </button>
     </div>
   );
