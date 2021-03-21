@@ -1,6 +1,7 @@
 import React from "react";
 import { HiOutlineChevronDoubleRight } from "react-icons/hi";
 import UserListBox from "./UserListBox";
+import DumpAllBtn from "../assets/dumpall.png";
 
 const MobileViewTabs = () => {
   return (
@@ -85,7 +86,7 @@ const MobileViewTabs = () => {
           <div className="arrow_icon">
             <div className="dump_btn_box">
               <button type="button" class="btn btn-dark">
-                Dump All
+                <img src={DumpAllBtn} alt="" />
               </button>
             </div>
           </div>

@@ -1,6 +1,10 @@
 import React from "react";
 import "./styles/TransferList.css";
 import UserListBox from "./UserListBox";
+import TransferBtn from "../assets/transfermax.png";
+import TransferQtyBtn from "../assets/Transferqty.png";
+import DumpAllBtn from "../assets/dumpall.png";
+
 const TransferList = () => {
   return (
     <React.Fragment>
@@ -12,14 +16,18 @@ const TransferList = () => {
           <UserListBox name="Personal" />
           <div className="top_box_btns">
             <div className="top_black_box">
-              <button>Transfer Max</button>
+              <button>
+                <img src={TransferBtn} alt="" />
+              </button>
               <input type="text" placeholder="Qty Input" />
-              <button>Transfer Qty</button>
+              <button>
+                <img src={TransferQtyBtn} alt="" />
+              </button>
             </div>
             <div className="arrow_icon">
               <div className="dump_btn_box">
                 <button type="button" class="btn btn-dark">
-                  Dump All
+                  <img src={DumpAllBtn} alt="" />
                 </button>
               </div>
             </div>

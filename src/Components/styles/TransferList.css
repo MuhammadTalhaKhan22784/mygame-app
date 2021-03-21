@@ -121,12 +121,16 @@
 .top_black_box {
   width: 152px;
   background-color: #000000ab;
-  height: 107px;
+  height: 132px;
   margin-top: 9px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.top_black_box img {
+  width: 100%;
+  height: 38px;
 }
 .top_black_box input {
   width: 100px;
@@ -137,14 +141,18 @@
   border: none;
   font-weight: 500;
   margin: 5px auto;
-  background-color: white;
+  background-color: transparent;
+}
+.top_black_box button:focus {
+  outline: none;
+  box-shadow: none;
 }
 .arrow_icon {
   background-image: url(../../assets/box_image.jpeg);
   display: flex;
   justify-content: space-around;
   width: 152px;
-  height: 100px;
+  height: 82px;
   line-height: 5rem;
   margin-top: 7px;
   align-items: center;
@@ -161,9 +169,13 @@
   margin: 3px auto;
   align-items: center;
 }
+.arrow_icon button:focus {
+  outline: none;
+  box-shadow: none;
+}
 .arrow_icon img {
-  width: 126px;
-  height: 150px;
+  width: 113px;
+  height: 50px;
 }
 .dump_btn_box {
   width: 100%;
