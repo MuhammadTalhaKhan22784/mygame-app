@@ -64,10 +64,14 @@
   .main_tabs {
     min-height: 100vh;
     display: block;
+    padding-bottom: 20px;
   }
   .main_tabs .main_box {
     height: max-content;
     width: 64%;
+  }
+  .dump_btn_box button {
+    width: 105px !important;
   }
   .users_main {
     height: max-content;
@@ -82,8 +86,10 @@
   .main_details_box {
     margin: 1rem auto 1rem auto;
   }
-  .main_tabs .dump_btn_box {
-    width: 100% !important;
+  .main_tabs .arrow_icon {
+    margin: 0 auto;
+    height: 63px;
+
   }
   .mbv-arrow {
     width: 36%;

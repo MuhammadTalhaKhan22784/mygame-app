@@ -77,10 +77,17 @@ const MobileViewTabs = () => {
               </button>
             </div>
           </div>
-          <div className="dump_btn_box">
+          {/* <div className="dump_btn_box">
             <button type="button" class="btn btn-dark">
               Dump All
             </button>
+          </div> */}
+          <div className="arrow_icon">
+            <div className="dump_btn_box">
+              <button type="button" class="btn btn-dark">
+                Dump All
+              </button>
+            </div>
           </div>
         </div>
       </div>
