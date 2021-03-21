@@ -32,7 +32,7 @@ const MobileViewTabs = () => {
               aria-controls="pills-listb"
               aria-selected="false"
             >
-              City
+              City Inventory
             </button>
           </li>
         </ul>

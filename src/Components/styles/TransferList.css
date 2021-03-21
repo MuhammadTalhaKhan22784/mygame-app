@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Telex&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 
 .main_users_list {
   width: 100%;
@@ -20,7 +20,8 @@
 .top_text_inven h2 {
   margin-top: 4px;
   color: white;
-  font-family: "Telex", sans-serif;
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 2px;
   font-weight: bold;
   font-size: 1.6rem;
 }
@@ -43,7 +44,8 @@
   font-size: 1.3rem;
   padding: 4px 0;
   font-weight: 500;
-  font-family: "Telex", sans-serif;
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 2px;
 }
 .users_list {
   width: 100%;
@@ -81,7 +83,8 @@
   width: 92%;
   font-size: 20px;
   padding: 5px 0;
-  font-family: "Telex", sans-serif;
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 2px;
   font-weight: bold;
   text-align: center;
   background-color: #131313d4;
@@ -204,8 +207,10 @@
   }
   .nav-pills .nav-link {
     font-weight: 500;
+    font-family: "Bebas Neue", cursive;
   }
   .nav-pills .nav-link.active {
+    font-family: "Bebas Neue", cursive;
     background-color: #111012;
   }
   .main_details_box {
