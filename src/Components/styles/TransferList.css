@@ -148,7 +148,7 @@
   box-shadow: none;
 }
 .arrow_icon {
-  background-image: url(../../assets/box_image.jpeg);
+  /* background-image: url(../../assets/box_image.jpeg); */
   display: flex;
   justify-content: space-around;
   width: 152px;
