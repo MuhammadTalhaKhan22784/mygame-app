@@ -3,7 +3,7 @@ import "./styles/TransferList.css";
 import UserListBox from "./UserListBox";
 import TransferBtn from "../assets/transfermax.png";
 import TransferQtyBtn from "../assets/Transferqty.png";
-import DumpAllBtn from "../assets/dumpall.png";
+import DumpAllBtn from "../assets/mobiledumpall.png";
 
 const TransferList = () => {
   return (

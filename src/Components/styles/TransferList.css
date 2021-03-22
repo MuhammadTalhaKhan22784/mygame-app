@@ -119,10 +119,10 @@
   align-items: center;
 }
 .top_black_box {
-  width: 152px;
+  width: 178px;
   background-color: #000000ab;
-  height: 132px;
-  margin-top: 9px;
+  height: 213px;
+  margin-top: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -154,7 +154,6 @@
   width: 152px;
   height: 82px;
   line-height: 5rem;
-  margin-top: 7px;
   align-items: center;
   flex-direction: column;
 }
@@ -174,8 +173,8 @@
   box-shadow: none;
 }
 .arrow_icon img {
-  width: 113px;
-  height: 50px;
+  width: 178px;
+  height: 58px;
 }
 .dump_btn_box {
   width: 100%;

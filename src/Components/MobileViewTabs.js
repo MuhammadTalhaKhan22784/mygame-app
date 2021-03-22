@@ -1,7 +1,7 @@
 import React from "react";
 import { HiOutlineChevronDoubleRight } from "react-icons/hi";
 import UserListBox from "./UserListBox";
-import DumpAllBtn from "../assets/dumpall.png";
+import DumpAllBtn from "../assets/mobiledumpall.png";
 
 const MobileViewTabs = () => {
   return (
