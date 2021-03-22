@@ -120,7 +120,7 @@
 }
 .top_black_box {
   width: 178px;
-  background-color: #000000ab;
+  background-color: #000000cc;
   height: 213px;
   margin-top: 10px;
   display: flex;
@@ -135,6 +135,10 @@
 .top_black_box input {
   width: 100px;
   text-align: center;
+}
+.top_black_box input:focus{
+  outline: none;
+  box-shadow: none;
 }
 .top_black_box button {
   width: 100px;
@@ -174,6 +178,7 @@
 }
 .arrow_icon img {
   width: 178px;
+  object-fit: contain;
   height: 58px;
 }
 .dump_btn_box {
@@ -187,7 +192,14 @@
   margin: 0 1rem;
   color: #f3eaeab5;
   font-weight: bold;
-  background-image: linear-gradient(to bottom, #4e5150, #525252, #213535);
+  width: 69%;
+  /* background-image: linear-gradient(to bottom, #4e5150, #525252, #213535); */
+}
+.dump_btn_box button:focus {
+  box-shadow: none !important;
+  background: 0 0;
+  outline: none !important;
+  border: none !important;
 }
 .form-check-input {
   width: 2em;

@@ -106,6 +106,9 @@
     border: none;
     box-shadow: 0px 2px 2px 1px #ad9ea3;
   }
+  .main_tabs .arrow_icon button {
+    width: 120% !important;
+  }
 }
 @media (max-width: 473px) {
   .mbv-arrow {

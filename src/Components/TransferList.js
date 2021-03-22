@@ -3,7 +3,7 @@ import "./styles/TransferList.css";
 import UserListBox from "./UserListBox";
 import TransferBtn from "../assets/transfermax.png";
 import TransferQtyBtn from "../assets/Transferqty.png";
-import DumpAllBtn from "../assets/mobiledumpall.png";
+import DumpAllBtn from "../assets/dumpall.png";
 
 const TransferList = () => {
   return (
@@ -23,14 +23,19 @@ const TransferList = () => {
               <button>
                 <img src={TransferQtyBtn} alt="" />
               </button>
-            </div>
-            <div className="arrow_icon">
               <div className="dump_btn_box">
                 <button type="button" class="btn btn-dark">
                   <img src={DumpAllBtn} alt="" />
                 </button>
               </div>
             </div>
+            {/* <div className="arrow_icon">
+              <div className="dump_btn_box">
+                <button type="button" class="btn btn-dark">
+                  <img src={DumpAllBtn} alt="" />
+                </button>
+              </div>
+            </div> */}
           </div>
           <UserListBox name="City" />
         </div>
