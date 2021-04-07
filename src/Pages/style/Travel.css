@@ -1,0 +1,97 @@
+.travel_nav {
+  width: 100%;
+  background-color: black;
+  height: 60px;
+  display: flex;
+}
+
+.tr_text {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: yellow;
+}
+
+.tr_text h2 {
+  margin: 0 !important;
+}
+
+.tr_dropdown {
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.tr_dropdown .dropdown button {
+  margin: 0 !important;
+  color: yellow;
+  font-size: 1.2rem;
+  border: none;
+  font-weight: bold;
+  background-color: transparent !important;
+}
+
+.travel_container {
+  width: 100%;
+  height: 85vh;
+  background-color: #2b2b2b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 1rem;
+}
+
+.travel_hero {
+  width: 94%;
+  margin: 0.3rem auto;
+  display: flex;
+}
+
+.travel_box {
+  width: 80%;
+  height: 85px;
+  background-color: #18bcbb;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.tbox_content {
+  border: 3px solid yellow;
+  width: 65%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tbox_cost {
+  border: 3px solid #8e2e2f;
+  width: 32%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tbox_content h5 {
+  font-weight: bold;
+}
+
+.travel_box_btn {
+  width: 20%;
+  height: 85px;
+  background-color: #18bcbb;
+  opacity: 0.3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.travel_box_btn h5 {
+  font-weight: bold;
+  color: black;
+}

@@ -4,7 +4,7 @@ import { useHistory } from "react-router";
 const Home = () => {
   let history = useHistory();
   return (
-    <div>
+    <div className="d-flex flex-column w-50">
       <button
         type="button"
         className="btn btn-secondary"
@@ -22,6 +22,15 @@ const Home = () => {
         }}
       >
         Inventory
+      </button>
+      <button
+        type="button"
+        className="btn btn-success ms-5"
+        onClick={() => {
+          history.push("/travel");
+        }}
+      >
+        Travel
       </button>
     </div>
   );
