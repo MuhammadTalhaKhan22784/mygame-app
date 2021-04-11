@@ -1,6 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&?family=Syne+Mono&display=swap");
+
 .travel_nav {
   width: 100%;
-  background-color: black;
+  background-color: #00000066;
   height: 60px;
   display: flex;
 }
@@ -15,6 +17,7 @@
 
 .tr_text h2 {
   margin: 0 !important;
+  font-family: "Bebas Neue", cursive;
 }
 
 .tr_dropdown {
@@ -48,33 +51,70 @@
   width: 94%;
   margin: 0.3rem auto;
   display: flex;
+  align-items: center;
+}
+
+.io_arrow {
+  margin: 0 3px;
+  font-size: 18px;
 }
 
 .travel_box {
   width: 80%;
-  height: 85px;
-  background-color: #18bcbb;
+  height: 97px;
+  background-color: #131313;
   padding: 15px;
   display: flex;
   justify-content: space-between;
 }
 
 .tbox_content {
-  border: 3px solid yellow;
+  /* border: 3px solid yellow; */
   width: 65%;
   height: 100%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+}
+
+.tbox_content h5 {
+  color: #beea45;
+  font-family: "Syne Mono", monospace;
+
+}
+
+.tbox_content span {
+  color: #949494;
+  
+}
+
+.tbox_content p {
+  margin-bottom: 0 !important;
+  font-size: 0.9rem;
+  color: #949494;
+}
+
+.tbox_subcontent {
+  width: 350px;
+  display: flex;
+  font-size: 0.9rem;
+  justify-content: space-between;
 }
 
 .tbox_cost {
-  border: 3px solid #8e2e2f;
+  /* border: 3px solid #8e2e2f; */
+  font-family: "Bebas Neue", cursive;
+  
   width: 32%;
   height: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
+}
+
+.tbox_cost h5 {
+  color: #a74343;
 }
 
 .tbox_content h5 {
@@ -83,12 +123,26 @@
 
 .travel_box_btn {
   width: 20%;
-  height: 85px;
-  background-color: #18bcbb;
+  height: 100%;
+  cursor: pointer;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-color: #18bcbb;
   opacity: 0.3;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
+}
+.travel_btn_img1 {
+  background-image: url(../../assets/Gas-Station-Complaint.jpg);
+}
+
+.travel_btn_img2 {
+  background-image: url(../../assets/Greyhound-1.jpg);
+}
+
+.travel_btn_img3 {
+  background-image: url(../../assets/MW-HE536_airpla_20190225131547_ZQ.jpg);
 }
 
 .travel_box_btn h5 {
