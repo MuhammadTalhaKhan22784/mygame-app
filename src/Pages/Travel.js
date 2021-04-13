@@ -12,6 +12,7 @@ const Travel = () => {
         </div>
         <div className="tr_dropdown">
           <div className="dropdown">
+            <h2 className="drp_text text-white">DROPDOWN CITY</h2>
             <button
               className="btn btn-secondary dropdown-toggle"
               type="button"
@@ -19,7 +20,7 @@ const Travel = () => {
               data-bs-toggle="dropdown"
               aria-expanded="false"
             >
-              DROPDOWN CITY LIST
+              Enter your destinaton
             </button>
             <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
               <li>
@@ -61,10 +62,17 @@ const Travel = () => {
               </div>
             </div>
             <div className="tbox_cost">
-              <h5 className="fs-2">COST: 52$</h5>
+            <h5 className="fs-2 text-center">
+                COST <br /> 52$
+              </h5>
             </div>
           </div>
-          <IoIosArrowDroprightCircle className="text-white io_arrow" />
+          {/* <IoIosArrowDroprightCircle className="text-white io_arrow" /> */}
+          <span className="go">
+            Click To <br />
+            Go
+          </span>
+
           <div className="travel_box_btn travel_btn_img1"></div>
         </div>
         <div className="travel_hero">
@@ -91,10 +99,16 @@ const Travel = () => {
               </div>
             </div>
             <div className="tbox_cost">
-              <h5 className="fs-2">COST: 52$</h5>
+              <h5 className="fs-2 text-center">
+                COST <br /> 52$
+              </h5>
             </div>
           </div>
-          <IoIosArrowDroprightCircle className="text-white io_arrow" />
+          {/* <IoIosArrowDroprightCircle className="text-white io_arrow" /> */}
+          <span className="go">
+            Click To <br />
+            Go
+          </span>
 
           <div className="travel_box_btn travel_btn_img2"></div>
         </div>
@@ -120,11 +134,16 @@ const Travel = () => {
               </div>
             </div>
             <div className="tbox_cost">
-              <h5 className="fs-2">COST: 52$</h5>
+            <h5 className="fs-2 text-center">
+                COST <br /> 52$
+              </h5>
             </div>
           </div>
-          <IoIosArrowDroprightCircle className="text-white io_arrow" />
-
+          {/* <IoIosArrowDroprightCircle className="text-white io_arrow" /> */}
+          <span className="go">
+            Click To <br />
+            Go
+          </span>
           <div className="travel_box_btn travel_btn_img3"></div>
         </div>
       </div>

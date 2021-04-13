@@ -2,7 +2,7 @@
 
 .travel_nav {
   width: 100%;
-  background-color: #1F1E23;
+  background-color: #1f1e23;
   height: 60px;
   display: flex;
 }
@@ -28,13 +28,24 @@
   padding-top: 0px;
 }
 
+.tr_dropdown .dropdown {
+  display: flex;
+  align-items: center;
+}
+
+.drp_text {
+  font-family: "Bebas Neue", cursive;
+  margin: 0 !important;
+}
+
 .tr_dropdown .dropdown button {
   margin: 0 !important;
   color: white;
-  font-size: 1.2rem;
+  font-size: 0.6rem;
   border: none;
+  margin-left: 20px !important;
   font-weight: bold;
-  background-color: transparent !important;
+  background-color: #48474C !important;
 }
 
 .travel_container {
@@ -63,7 +74,7 @@
 }
 
 .travel_box {
-  width: 80%;
+  width: 63%;
   height: 97px;
   background-color: #343236cf;
   padding: 15px;
@@ -84,12 +95,11 @@
 .tbox_content h5 {
   color: white;
   font-family: "Syne Mono", monospace;
-
 }
 
 .tbox_content span {
   color: white;
-  
+  font-family: "Syne Mono", monospace;
 }
 
 .tbox_content p {
@@ -108,7 +118,7 @@
 .tbox_cost {
   /* border: 3px solid #8e2e2f; */
   font-family: "Bebas Neue", cursive;
-  
+
   width: 32%;
   height: 100%;
   display: flex;
@@ -118,6 +128,7 @@
 
 .tbox_cost h5 {
   color: white;
+  font-family: "Bebas Neue", cursive;
 }
 
 .tbox_content h5 {
@@ -126,7 +137,7 @@
 }
 
 .travel_box_btn {
-  width: 20%;
+  width: 23%;
   height: 100%;
   cursor: pointer;
   background-size: cover;
@@ -154,10 +165,23 @@
   color: black;
 }
 
-.risk_range span{
+.risk_range {
+  display: flex;
+  align-items: center;
+}
+
+.risk_range span {
   font-size: 0.6rem;
 }
 
 .range {
   margin-left: 5.5rem;
+}
+
+.go {
+  color: #ea890f;
+  text-align: center;
+  margin: 0 1rem;
+  font-weight: 500;
+  font-family: "Bebas Neue", cursive;
 }
