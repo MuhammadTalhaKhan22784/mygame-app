@@ -2,6 +2,7 @@ import React from "react";
 // import { AiOutlineArrowRight } from 'react-icons/ai';
 import { IoIosArrowDroprightCircle } from "react-icons/io";
 import "./style/Travel.css";
+import range from "../assets/Asset 2.png";
 const Travel = () => {
   return (
     <React.Fragment>
@@ -46,10 +47,18 @@ const Travel = () => {
             <div className="tbox_content">
               <h5>Car</h5>
               <div className="tbox_subcontent">
-                <span>Arrival Time: 10 am</span>
-                <span>Inventory Summary: $200</span>
+                <span>
+                  Arrival Time: <span className="ms-5">10 am</span>
+                </span>
+                <span>
+                  Inventory Summary: <span className="ms-3">$200</span>{" "}
+                </span>
               </div>
               <p>For car, let's put a third line</p>
+              <div className="risk_range">
+                <span>Risk</span>
+                <img className="range" src={range} alt="" />
+              </div>
             </div>
             <div className="tbox_cost">
               <h5 className="fs-2">COST: 52$</h5>
@@ -63,13 +72,23 @@ const Travel = () => {
             <div className="tbox_content">
               <h5>Bus</h5>
               <div className="tbox_subcontent">
-                <span>Arrival Time: 10 am</span>
-                <span>Inventory Summary: $200</span>
+                <span>
+                  Arrival Time: <span className="ms-5">10 am</span>
+                </span>
+                <span>
+                  Inventory Summary: <span className="ms-3">$200</span>
+                </span>
               </div>
+
               <p>
                 Your (xx car in inventory) will be valeted back to your house
                 ($xxx.xx fee
               </p>
+
+              <div className="risk_range">
+                <span>Risk</span>
+                <img className="range" src={range} alt="" />
+              </div>
             </div>
             <div className="tbox_cost">
               <h5 className="fs-2">COST: 52$</h5>
@@ -84,13 +103,21 @@ const Travel = () => {
             <div className="tbox_content">
               <h5>Fly commercial</h5>
               <div className="tbox_subcontent">
-                <span>Arrival Time: 10 am</span>
-                <span>Inventory Summary: $200</span>
+                <span>
+                  Arrival Time: <span className="ms-5">10 am</span>
+                </span>
+                <span>
+                  Inventory Summary: <span className="ms-3">$200</span>{" "}
+                </span>
               </div>
               <p>
                 Your (xx car in inventory) will be valeted back to your house
                 ($xxx.xx fee)
               </p>
+              <div className="risk_range">
+                <span>Risk</span>
+                <img className="range" src={range} alt="" />
+              </div>
             </div>
             <div className="tbox_cost">
               <h5 className="fs-2">COST: 52$</h5>

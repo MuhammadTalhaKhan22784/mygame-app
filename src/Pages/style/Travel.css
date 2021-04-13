@@ -2,7 +2,7 @@
 
 .travel_nav {
   width: 100%;
-  background-color: #00000066;
+  background-color: #1F1E23;
   height: 60px;
   display: flex;
 }
@@ -12,7 +12,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  color: yellow;
+  color: White;
 }
 
 .tr_text h2 {
@@ -25,12 +25,12 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  padding-top: 10px;
+  padding-top: 0px;
 }
 
 .tr_dropdown .dropdown button {
   margin: 0 !important;
-  color: yellow;
+  color: white;
   font-size: 1.2rem;
   border: none;
   font-weight: bold;
@@ -40,7 +40,10 @@
 .travel_container {
   width: 100%;
   height: 85vh;
-  background-color: #2b2b2b;
+  /* background-position: center; */
+  background-size: cover;
+  /* background-color: #2b2b2b; */
+  background-image: url("../../assets/travelbg.jpg");
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -62,7 +65,7 @@
 .travel_box {
   width: 80%;
   height: 97px;
-  background-color: #131313;
+  background-color: #343236cf;
   padding: 15px;
   display: flex;
   justify-content: space-between;
@@ -79,27 +82,27 @@
 }
 
 .tbox_content h5 {
-  color: #beea45;
+  color: white;
   font-family: "Syne Mono", monospace;
 
 }
 
 .tbox_content span {
-  color: #949494;
+  color: white;
   
 }
 
 .tbox_content p {
   margin-bottom: 0 !important;
-  font-size: 0.9rem;
-  color: #949494;
+  font-size: 0.6rem;
+  color: white;
 }
 
 .tbox_subcontent {
   width: 350px;
   display: flex;
-  font-size: 0.9rem;
-  justify-content: space-between;
+  flex-direction: column;
+  font-size: 0.6rem;
 }
 
 .tbox_cost {
@@ -114,10 +117,11 @@
 }
 
 .tbox_cost h5 {
-  color: #a74343;
+  color: white;
 }
 
 .tbox_content h5 {
+  margin-bottom: 0 !important;
   font-weight: bold;
 }
 
@@ -148,4 +152,12 @@
 .travel_box_btn h5 {
   font-weight: bold;
   color: black;
+}
+
+.risk_range span{
+  font-size: 0.6rem;
+}
+
+.range {
+  margin-left: 5.5rem;
 }
