@@ -9,10 +9,11 @@
   background-color: #1f1e23;
   height: 45px;
   display: flex;
+  justify-content: space-between;
+  padding: 0 31px;
 }
 
 .tr_text {
-  width: 50%;
   margin-top: 10px;
   display: flex;
   justify-content: center;
@@ -22,12 +23,10 @@
 
 .tr_text h2 {
   margin: 0 !important;
-  margin-left: -176px !important;
-  font-family: "Special Elite", cursive;
+  font-family: "Bebas Neue", cursive;
 }
 
 .tr_dropdown {
-  width: 50%;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -50,17 +49,17 @@
   font-size: 0.6rem;
   border: none;
   margin-left: 20px !important;
-  font-weight: bold;
-  /* font-family: "Bebas Neue", cursive; */
-  font-family: "Syne Mono", monospace;
+  font-weight: bold;  font-family: "Syne Mono", monospace;
+}
+
+.tr_dropdown .dropdown button:focus {
+  box-shadow: none;
 }
 
 .travel_container {
   width: 100%;
   height: 88.7vh;
-  /* background-position: center; */
   background-size: cover;
-  /* background-color: #2b2b2b; */
   background-image: url("../../assets/travelbg.jpg");
   display: flex;
   flex-direction: column;
@@ -91,7 +90,6 @@
 }
 
 .tbox_content {
-  /* border: 3px solid yellow; */
   width: 45%;
   height: 100%;
   display: flex;
@@ -104,7 +102,6 @@
   color: white;
   font-family: "Bebas Neue", cursive;
   margin-bottom: 0 !important;
-  /* font-weight: bold; */
 }
 
 .tbox_content span {
@@ -126,7 +123,6 @@
 }
 
 .tbox_cost {
-  /* border: 3px solid #8e2e2f; */
   font-family: "Bebas Neue", cursive;
   width: 10%;
   height: 100%;
@@ -163,11 +159,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  /* background-color: #18bcbb;
-  opacity: 0.3;
-  display: flex;
-  justify-content: center;
-  align-items: center; */
+ 
 }
 .travel_btn_img1 {
   background-image: url(../../assets/Gas-Station-Complaint.jpg);
@@ -185,7 +177,6 @@
   font-weight: bold;
   color: black;
 }
-
 
 .risk_range {
   display: flex;
@@ -206,4 +197,102 @@
   margin: 0 1rem;
   font-weight: 500;
   font-family: "Bebas Neue", cursive;
+}
+
+@media (max-width: 630px) {
+  .travel_box {
+    width: 75%;
+    height: 151px;
+  }
+  .travel_box_btn {
+    width: 100%;
+  }
+  .travel_container {
+    justify-content: space-around;
+    height: 100vh;
+  }
+  .tbox_cost_1 {
+    width: 33%;
+  }
+  .tbox_content {
+    width: 45%;
+  }
+}
+
+@media (max-width: 530px) {
+  .travel_box {
+    height: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .travel_box_btn {
+    display: none;
+  }
+  .tbox_content {
+    width: 50%;
+  }
+  .tbox_content h5 {
+    font-size: 1rem;
+  }
+  .travel_box {
+    width: 100%;
+    height: 151px;
+  }
+  .tbox_subcontent {
+    width: 100%;
+  }
+  .tr_dropdown .dropdown button {
+    margin: 3px 0 0 0 !important;
+  }
+  .tr_text h2 {
+    font-size: 1.4rem;
+  }
+  .drp_text {
+    margin: 7px 8px 0 0 !important;
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .drp_text {
+    margin: 10px 8px 0 0 !important;
+  }
+  .tr_dropdown .dropdown button {
+    margin: 6px 0 0 0 !important;
+  }
+  .tbox_cost h5 {
+    font-size: 1.2rem !important;
+  }
+  .tbox_cost_1 p {
+    font-size: 0.7rem;
+  }
+  .range {
+    width: 60%;
+    margin-left: 1.2rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .mb_tbox_content {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 390px) {
+  .travel_nav {
+    padding: 0 17px;
+  }
+  .tr_text h2 {
+    font-size: 1.1rem;
+  }
+  .drp_text {
+    font-size: 1.1rem;
+  }
+  .tr_dropdown .dropdown button {
+    font-size: 0.5rem;
+  }
+  .tbox_content {
+    width: 46%;
+  }
 }

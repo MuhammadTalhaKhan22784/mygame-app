@@ -1,6 +1,6 @@
 import React from "react";
 import { useHistory } from "react-router";
-import range from "../assets/Asset 2.png";
+import range from "../assets/Asset 1.png";
 import "./style/Travel.css";
 const Travel = () => {
   const history = useHistory();
@@ -45,7 +45,7 @@ const Travel = () => {
       <div className="travel_container">
         <div className="travel_hero" onClick={history.push("#")}>
           <div className="travel_box">
-            <div className="tbox_content">
+            <div className="tbox_content  mb_tbox_content">
               <h5>Car (Fuel: xxx.xx)</h5>
               <div className="tbox_subcontent">
                 <span>
@@ -68,11 +68,6 @@ const Travel = () => {
               </h5>
             </div>
           </div>
-          {/* <IoIosArrowDroprightCircle className="text-white io_arrow" /> */}
-          {/* <span className="go">
-            Click To <br />
-            Go
-          </span> */}
 
           <div className="travel_box_btn travel_btn_img1"></div>
         </div>
@@ -85,7 +80,7 @@ const Travel = () => {
                   Arrival Time: <span className="ms-3">10 am</span>
                 </span>
                 <span>
-                   Baggage fees: <span className="ms-3">$200</span>
+                  Baggage fees: <span className="ms-3">$200</span>
                 </span>
               </div>
 
@@ -106,11 +101,6 @@ const Travel = () => {
               </h5>
             </div>
           </div>
-          {/* <IoIosArrowDroprightCircle className="text-white io_arrow" /> */}
-          {/* <span className="go">
-            Click To <br />
-            Go
-          </span> */}
 
           <div className="travel_box_btn travel_btn_img2"></div>
         </div>
@@ -123,7 +113,7 @@ const Travel = () => {
                   Arrival Time: <span className="ms-3">10 am</span>
                 </span>
                 <span>
-                   Baggage fees: <span className="ms-3">$200</span>
+                  Baggage fees: <span className="ms-3">$200</span>
                 </span>
               </div>
 
@@ -145,11 +135,7 @@ const Travel = () => {
               </h5>
             </div>
           </div>
-          {/* <IoIosArrowDroprightCircle className="text-white io_arrow" /> */}
-          {/* <span className="go">
-            Click To <br />
-            Go
-          </span> */}
+
           <div className="travel_box_btn travel_btn_img3"></div>
         </div>
       </div>
