@@ -228,7 +228,7 @@
 @media (max-width: 500px) {
   .travel_container {
     justify-content: unset;
-    height: 92vh;
+    height: 100vh;
   }
   .travel_box_btn {
     display: none;
@@ -241,7 +241,7 @@
   }
   .travel_box {
     width: 100%;
-    height: 151px;
+    height: 100px;
   }
   .tbox_subcontent {
     width: 100%;
