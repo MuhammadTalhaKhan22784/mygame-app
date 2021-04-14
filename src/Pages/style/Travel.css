@@ -209,7 +209,7 @@
   }
   .travel_container {
     justify-content: space-around;
-    height: 100vh;
+    height: 92vh;
   }
   .tbox_cost_1 {
     width: 33%;
@@ -226,6 +226,10 @@
 }
 
 @media (max-width: 500px) {
+  .travel_container {
+    justify-content: unset;
+    height: 92vh;
+  }
   .travel_box_btn {
     display: none;
   }
