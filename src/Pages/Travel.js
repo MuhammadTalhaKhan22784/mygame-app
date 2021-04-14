@@ -46,29 +46,25 @@ const Travel = () => {
         <div className="travel_hero" onClick={history.push("#")}>
           <div className="travel_box">
             <div className="tbox_content">
-              <h5>Car</h5>
+              <h5>Car (Fuel: xxx.xx)</h5>
               <div className="tbox_subcontent">
                 <span>
-                  Arrival Time: <span className="ms-5">10 am</span>
+                  Arrival Time: <span className="ms-3">10 am</span>
                 </span>
                 <span>
-                  Inventory Summary: <span className="ms-3">$200</span>{" "}
+                  Inventory Summary: <span className="ms-3">$200</span>
                 </span>
               </div>
-              <p>For car, let's put a third line</p>
+              <p>Passengers: x x / Weapons: xx</p>
               <div className="risk_range">
                 <span>Risk</span>
                 <img className="range" src={range} alt="" />
               </div>
             </div>
-            <div className="tbox_cost">
-              <h5 className="fs-2 text-orange text-center">
-                VALET <br /> XXX
-              </h5>
-            </div>
+
             <div className="tbox_cost">
               <h5 className="fs-2 text-center">
-                TOTAL <br /> 52$
+                TOTAL <br /> $52
               </h5>
             </div>
           </div>
@@ -83,13 +79,13 @@ const Travel = () => {
         <div className="travel_hero" onClick={history.push("#")}>
           <div className="travel_box">
             <div className="tbox_content">
-              <h5>Bus</h5>
+              <h5>Bus (Ticket: xxx.xx)</h5>
               <div className="tbox_subcontent">
                 <span>
-                  Arrival Time: <span className="ms-5">10 am</span>
+                  Arrival Time: <span className="ms-3">10 am</span>
                 </span>
                 <span>
-                  Inventory Summary: <span className="ms-3">$200</span>
+                   Baggage fees: <span className="ms-3">$200</span>
                 </span>
               </div>
 
@@ -98,14 +94,15 @@ const Travel = () => {
                 <img className="range" src={range} alt="" />
               </div>
             </div>
-            <div className="tbox_cost">
-              <h5 className="fs-2 text-orange text-center">
-                VALET <br /> XXX
-              </h5>
+            <div className="tbox_cost_1">
+              <p className="text-white text-center">
+                Your vehicle (Vehicle) will be valeted back to your property for
+                you. Cost: Xxx.xx
+              </p>
             </div>
             <div className="tbox_cost">
               <h5 className="fs-2 text-center">
-                TOTAL <br /> 52$
+                TOTAL <br /> $52
               </h5>
             </div>
           </div>
@@ -120,13 +117,13 @@ const Travel = () => {
         <div className="travel_hero" onClick={history.push("#")}>
           <div className="travel_box">
             <div className="tbox_content">
-              <h5>Fly commercial</h5>
+              <h5>Fly commercial (Ticket: xxx.xx)</h5>
               <div className="tbox_subcontent">
                 <span>
-                  Arrival Time: <span className="ms-5">10 am</span>
+                  Arrival Time: <span className="ms-3">10 am</span>
                 </span>
                 <span>
-                  Inventory Summary: <span className="ms-3">$200</span>{" "}
+                   Baggage fees: <span className="ms-3">$200</span>
                 </span>
               </div>
 
@@ -135,15 +132,16 @@ const Travel = () => {
                 <img className="range" src={range} alt="" />
               </div>
             </div>
-            <div className="tbox_cost">
-              <h5 className="fs-2 text-orange text-center">
-                VALET <br /> XXX
-              </h5>
+            <div className="tbox_cost_1">
+              <p className="text-white text-center">
+                Your vehicle (Vehicle) will be valeted back to your property for
+                you. Cost: Xxx.xx
+              </p>
             </div>
 
             <div className="tbox_cost">
               <h5 className="fs-2 text-center">
-                TOTAL <br /> 52$
+                TOTAL <br /> $52
               </h5>
             </div>
           </div>
