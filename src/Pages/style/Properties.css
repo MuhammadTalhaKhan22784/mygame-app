@@ -1,0 +1,309 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&?family=Six+Caps&family=Special+Elite&?family=Syne+Mono&display=swap");
+
+.properties_nav {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  background-color: #211f24;
+}
+
+.properties_nav h2 {
+  color: white;
+  margin: 0;
+  font-size: 1.1rem;
+  padding-left: 18px;
+  font-family: "Bebas Neue", cursive;
+}
+
+.properties_main {
+  width: 100%;
+  height: 90vh;
+  background-image: url("../../assets/travelbg.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.properties_main > .properties_content {
+  width: 100%;
+  /* height: 100vh;
+    background-color: #211f24;
+    opacity: 0.2;
+    filter: blur(5px); */
+  flex-wrap: wrap;
+  padding-top: 7px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.prop_card1 {
+  width: 30%;
+  height: 188px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #211f24c7;
+}
+
+.prop_card1 img {
+  width: 100%;
+  height: 70px;
+}
+
+.prop_card1 button {
+  background-color: #0000005c;
+  border: none;
+  padding: 3px 20px;
+  color: white;
+  text-transform: uppercase;
+  margin-top: 1rem;
+  font-family: "Syne Mono", monospace;
+}
+
+.prop_card2 {
+  width: 30%;
+  height: 188px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #211f24c7;
+}
+
+.pcard2_header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pcard2_header svg {
+  font-size: 25px;
+  color: white;
+}
+
+.pcard2_header h2 {
+  color: white;
+  font-size: 1rem;
+  font-family: "Syne Mono", monospace;
+}
+
+.pcard2_points {
+  width: 100%;
+}
+
+.pcard2_points ul {
+  padding-left: 1rem;
+}
+.pcard2_points ul li {
+  color: #d3d4d4;
+  padding-right: 5px;
+  font-size: 0.5rem;
+  font-family: "Syne Mono", monospace;
+}
+
+.prop_card2 button {
+  height: 35px;
+  width: 95px;
+  border: none;
+  background-color: black;
+  color: white;
+  font-family: "Syne Mono", monospace;
+}
+
+.prop_card3 {
+  width: 30%;
+  height: 188px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  background-color: #211f24c7;
+}
+
+.prop_card3 img {
+  width: 80px;
+}
+
+.pcard3_header {
+  display: flex;
+  justify-content: space-around;
+}
+
+.pcard3_header button {
+  height: 30px;
+  width: 70px;
+  border: none;
+  background-color: black;
+  color: white;
+  font-family: "Syne Mono", monospace;
+}
+
+.pcard3_middle {
+  width: 100%;
+  display: flex;
+  margin-top: 4px;
+  padding: 0 16px;
+  justify-content: space-around;
+}
+
+.pcard3_middle p {
+  font-size: 0.6rem;
+  color: #d3d4d4;
+  width: 70%;
+  margin-bottom: 0;
+}
+
+.pcard3_middle button {
+  height: 30px;
+  width: 70px;
+  border: none;
+  background-color: black;
+  color: white;
+  font-family: "Syne Mono", monospace;
+}
+
+/*  */
+
+.prop_main_bottom {
+  width: 100%;
+  margin-top: 6px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.pmain_left {
+  width: 45%;
+  height: 118px;
+  
+  /* clip-path: polygon(5% 5%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%); */
+}
+.pmain_left > div {
+  border: 2px solid #dacdd173;
+  background-color: #02020273;
+  height: 118px;
+  border-radius: 20px 0 20px 0;
+
+}
+
+.pmain_left h2 {
+  font-family: "Bebas Neue", cursive;
+  font-size: 0.9rem;
+  color: white;
+  padding-left: 20px !important;
+}
+
+.pm_l_head {
+  width: 100%;
+  /* height: 20px; */
+  border-bottom: 2px solid #dacdd173;
+}
+
+.pm_l_head h2 {
+  margin: 0;
+  font-size: 0.7rem;
+  color: white;
+  padding: 5px 0px 5px 20px;
+  font-family: "Bebas Neue", cursive;
+}
+
+.pm_l_content {
+  width: 100%;
+  overflow-y: scroll;
+  height: 75px;
+}
+
+.pm_l_content ul {
+  list-style: none;
+}
+
+.pm_l_content ul li {
+  font-size: 0.6rem;
+  font-family: "Syne Mono", monospace;
+  margin-top: 2px;
+  color: #d3d4d4;
+  list-style: none;
+  margin-left: -13px;
+  display: flex;
+  flex-direction: column;
+}
+
+.pm_l_content ul li button {
+  height: 25px;
+  width: 70px;
+  font-size: 0.7rem;
+  margin-top: 5px;
+  border: none;
+  background-color: black;
+  color: white;
+  font-family: "Syne Mono", monospace;
+}
+
+@media (max-width: 630px) {
+  .properties_main {
+    height: max-content;
+    padding-bottom: 40px;
+  }
+  .prop_card1 {
+    width: 40%;
+    height:250px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+  }
+
+  .prop_card2 {
+    width: 40%;
+    height:250px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+  }
+  .prop_card3 {
+    width: 90%;
+    margin-top: 1rem;
+    padding: 0 39px;
+
+  }
+  .pcard3_header {
+    width: 100%;
+    justify-content: space-between;
+  }
+  .pcard3_middle {
+      padding: 0;
+      justify-content: space-between;
+      align-items: center;
+  }
+  .prop_main_bottom {
+    flex-direction: column;
+    align-items: center;
+  }
+  .pmain_left {
+    width: 90%;
+    margin: 1rem auto;
+  }
+  .pm_l_content ul li {
+    font-size: 0.7rem;
+  }
+  .pcard2_points ul {
+    padding-left: 2rem;
+  }
+  .pcard2_points ul li {
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width:500px) {
+    .prop_card1, .prop_card2 {
+        margin: 1rem auto;
+        width: 90%;
+        padding: 0 39px;
+    }
+    .pcard2_points ul {
+        padding-left: 0;
+    }
+    .prop_card1 img {
+        width: 100%;
+        height: 133px;
+    }
+}

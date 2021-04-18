@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Home from "../Pages/Home";
 import InventoryGame from "../Pages/InventoryGame";
 import LibertyPreserve from "../Pages/LibertyPreserve";
+import Properties from "../Pages/Properties";
 import Travel from "../Pages/Travel";
 
 const Routes = () => {
@@ -21,6 +22,9 @@ const Routes = () => {
           </Route>
           <Route exact path="/travel">
             <Travel />
+          </Route>
+          <Route exact path="/properties">
+            <Properties />
           </Route>
         </Switch>
       </Router>

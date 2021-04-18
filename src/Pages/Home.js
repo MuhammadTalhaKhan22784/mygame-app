@@ -32,6 +32,15 @@ const Home = () => {
       >
         Travel
       </button>
+      <button
+        type="button"
+        className="btn btn-success ms-5"
+        onClick={() => {
+          history.push("/properties");
+        }}
+      >
+        Properties
+      </button>
     </div>
   );
 };

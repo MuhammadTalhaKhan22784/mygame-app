@@ -3,6 +3,13 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.cus_r:focus {
+  box-shadow: none !important;
+  background-color: rgb(204, 204, 204) !important;
+  border: none !important;
+  background: none !important;
+}
 /* inventory game page css */
 
 .main_tabs {
