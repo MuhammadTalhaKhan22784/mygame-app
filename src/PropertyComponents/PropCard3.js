@@ -15,7 +15,6 @@ const PropCard3 = () => {
             <img src={pBuildingS} alt="building" />
             <div className="burn_cus">
               <h3>BUSINESS</h3>
-              {/* <h2>Level 3</h2> */}
               <button
                 onClick={() => {
                   setCardShow("false1");

@@ -1,12 +1,8 @@
 import React from "react";
-import { BiChevronLeft } from "react-icons/bi";
-import { BiChevronRight } from "react-icons/bi";
-
 import "./style/Properties.css";
 import PropCard1 from "../PropertyComponents/PropCard1";
 import PropCard2 from "../PropertyComponents/PropCard2";
 import PropCard3 from "../PropertyComponents/PropCard3";
-import PropCard5 from "../PropertyComponents/PropCard5";
 const Properties = () => {
   return (
     <React.Fragment>
@@ -18,7 +14,6 @@ const Properties = () => {
           <PropCard1 />
           <PropCard2 />
           <PropCard3 />
-          {/* <PropCard5 /> */}
         </div>
         <div className="prop_main_bottom">
           <div className="pmain_left">
