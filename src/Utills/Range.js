@@ -22,6 +22,7 @@ class SuperRange extends React.Component {
         }}
       >
         <Range
+        disabled
           values={this.state.values}
           step={STEP}
           min={MIN}
