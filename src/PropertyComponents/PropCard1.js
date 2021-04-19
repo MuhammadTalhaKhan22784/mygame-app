@@ -9,6 +9,7 @@ const PropCard1 = () => {
     <React.Fragment>
       {cardShow === "show" ? (
         <div className="prop_card1">
+          <h2>BUSINESS</h2>
           <img src={pBuildingL} alt="building" />
           <button
             onClick={() => {

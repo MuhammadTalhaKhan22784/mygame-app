@@ -1,14 +1,28 @@
-import React from "react";
+import React, { useState } from "react";
+import PropCard2 from "./PropCard2";
 
 const PropCard4 = () => {
+  const [cardShow, setCardShow] = useState("show");
+
   return (
     <React.Fragment>
-      <div className="prop_card4">
-        <div>
-          <h2>Burned</h2>
-          <button>WRITE OFF</button>
+      {cardShow === "show" ? (
+        <div className="prop_card4">
+          <div>
+            <h2>BUSINESS</h2>
+            <h2>Burned</h2>
+            <button
+              onClick={() => {
+                setCardShow("false");
+              }}
+            >
+              WRITE OFF
+            </button>
+          </div>
         </div>
-      </div>
+      ) : (
+        <PropCard2 />
+      )}
     </React.Fragment>
   );
 };

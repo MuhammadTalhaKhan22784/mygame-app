@@ -13,22 +13,29 @@ const PropCard3 = () => {
         <div className="prop_card3">
           <div className="pcard3_header">
             <img src={pBuildingS} alt="building" />
-            <button
-              onClick={() => {
-                setCardShow("false1");
-              }}
-            >
-              BURN
-            </button>
+            <div className="burn_cus">
+              <h2>BUSINESS</h2>
+              <button
+                onClick={() => {
+                  setCardShow("false1");
+                }}
+              >
+                BURN
+              </button>
+            </div>
           </div>
           <div className="pcard3_middle">
             <p>
               Majority have suffered alteration in some form, by injected
               humour, or ran majority
             </p>
-            <button onClick={() => {
+            <button
+              onClick={() => {
                 setCardShow("false");
-              }}>COLLECT</button>
+              }}
+            >
+              COLLECT
+            </button>
           </div>
           <SuperRange />
         </div>
