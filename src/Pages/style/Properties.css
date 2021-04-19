@@ -90,7 +90,7 @@
 }
 
 .prop_card1 button {
-  background-color: #0000005c;
+  background-color: black;
   border: none;
   padding: 3px 20px;
   color: white;
@@ -231,9 +231,10 @@
 }
 
 .prop_card4 button {
-  background-color: #b33304;
+  background-color: black;
   color: white;
-  width: 90px;
+  width: 120px;
+  padding: 5px 10px;
   height: 30px;
   border: none;
   font-family: "Syne Mono", monospace;
@@ -275,6 +276,7 @@
 .pcard3_middle button {
   height: 30px;
   width: 70px;
+  font-size: 0.8rem;
   border: none;
   background-color: black;
   color: white;
@@ -357,6 +359,17 @@
   font-family: "Syne Mono", monospace;
 }
 
+@media (max-width:673px){
+  .carousel-control-next {
+    top: 8px;
+    width: 13%;
+  }
+  .carousel-control-prev {
+    top: 8px;
+    width: 13%;
+  }
+}
+
 @media (max-width: 630px) {
   .properties_main {
     height: max-content;
@@ -420,6 +433,14 @@
   .pcard2_points ul li {
     font-size: 0.7rem;
   }
+  .carousel-control-next {
+    top: -8px;
+    width: 13%;
+  }
+  .carousel-control-prev {
+    top: -8px;
+    width: 13%;
+  }
 }
 
 @media (max-width: 500px) {
@@ -442,5 +463,50 @@
   .carousel-control-prev {
     top: 22px;
     width: 13%;
+  }
+}
+
+@media (max-width:425px) {
+  /* .prop_card1 img {
+    display:  none;
+  }
+  .prop_card1 {
+    height: 50px;
+  }
+  .prop_card1 button {
+    margin-top: 0;
+  } */
+  .prop_card3 img {
+    display: none;
+  }
+  .pcard3_header {
+    justify-content: center;
+  }
+  .prop_card3 {
+    height: 150px;
+  }
+}
+
+@media (max-width:410px) {
+  .carousel-control-next {
+    top: 9px;
+    width: 13%;
+  }
+  .carousel-control-prev {
+    top: 9px;
+    width: 13%;
+  }
+}
+
+@media (max-width:375px) {
+  .pcard2_points {
+margin-top: 15px;
+  }
+  .pcard2_points ul {
+    margin-bottom: 0;
+  }
+  .pcard2_header h2 {
+    margin-bottom: 0;
+    margin-top: 9px;
   }
 }
