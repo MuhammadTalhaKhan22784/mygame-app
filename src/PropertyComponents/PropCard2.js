@@ -18,7 +18,8 @@ const PropCard2 = () => {
               <div className="carousel-item active">
                 <div className="pcard2_header">
                   {/* <BiChevronLeft /> */}
-                  <h2>BUSINESS</h2>
+                  <h3>BUSINESS NAME</h3> 
+                  <h2>Level 1</h2>
                   {/* <BiChevronRight /> */}
                 </div>
                 <div className="pcard2_points">
@@ -42,7 +43,8 @@ const PropCard2 = () => {
               <div className="carousel-item">
                 <div className="pcard2_header">
                   {/* <BiChevronLeft /> */}
-                  <h2>BUSINESS</h2>
+                  <h2>BUSINESS Name</h2> 
+                  <h2>Level 1</h2>
                   {/* <BiChevronRight /> */}
                 </div>
                 <div className="pcard2_points">

@@ -9,7 +9,8 @@ const PropCard4 = () => {
       {cardShow === "show" ? (
         <div className="prop_card4">
           <div>
-            <h2>BUSINESS</h2>
+            <h2>BUSINESS NMAE</h2>
+            <h3>LEVEL 3</h3>
             <h2>Burned</h2>
             <button
               onClick={() => {

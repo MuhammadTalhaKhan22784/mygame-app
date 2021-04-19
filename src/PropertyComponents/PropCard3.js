@@ -14,7 +14,8 @@ const PropCard3 = () => {
           <div className="pcard3_header">
             <img src={pBuildingS} alt="building" />
             <div className="burn_cus">
-              <h2>BUSINESS</h2>
+              <h3>BUSINESS</h3>
+              {/* <h2>Level 3</h2> */}
               <button
                 onClick={() => {
                   setCardShow("false1");

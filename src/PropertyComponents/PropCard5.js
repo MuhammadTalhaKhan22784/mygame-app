@@ -9,7 +9,8 @@ const PropCard5 = () => {
       {cardShow === "show" ? (
         <div className="prop_card5">
           <div>
-          <h2>BUSINESS</h2>
+          <h2>BUSINESS NAME</h2>
+          <h3>LEVEL 5</h3>
             <h2>ABANDONED</h2>
             <button onClick={()=>{setCardShow("false")}}>RECOVER</button>
           </div>
