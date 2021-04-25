@@ -1,5 +1,5 @@
-input:focus{
-    outline: none;
+input:focus {
+  outline: none;
 }
 
 .gang_nav {
@@ -162,6 +162,7 @@ input:focus{
   align-items: center;
   padding: 5px 0;
   height: 100%;
+  background-color: #252429;
 }
 
 .cg_box .si_2 input {
@@ -342,6 +343,7 @@ input:focus{
   }
   .cg_box > .cgb_1 {
     width: 66%;
+    padding: 13px 0 5px 0;
   }
   .gang_main .carousel-control-prev-icon,
   .gang_main .carousel-control-next-icon {
@@ -353,8 +355,11 @@ input:focus{
   }
   .jg_box {
     padding: 7px 5px 9px 5px;
-  
-}
+  }
+  .gang10_box > .gtext_border {
+    border: 1px solid black;
+    justify-content: center;
+  }
 }
 
 @media (max-width: 620px) {
@@ -364,46 +369,52 @@ input:focus{
 }
 
 @media (max-width: 425px) {
-    .jg_box {
-        flex-direction: column;
-        align-items: center !important;
-    }
-    .jg_box .sr_btn {
-        width: 100%;
-    }
-    .si_box {
-        width: 90%;
-    }
-    .tg_box {
-        width: 90%;
-    }
-    .cgb_1 {
-        flex-direction: column;
-        align-items: center !important;
-    }
-    .cgb_1 .search_input {
-        margin-bottom: 0.5rem;
-    }
-    .cg_div .carousel-control-prev {
-        top: 47px;
-        left: 18px;
-    }
-    .cg_div .carousel-control-next {
-        top: 47px;
-        right: 18px;
-    }
-    .cg_content p {
-        font-size: 0.5rem;
-    }
+  .jg_box {
+    flex-direction: column;
+    align-items: center !important;
+  }
+  .jg_box .sr_btn {
+    width: 100%;
+  }
+  .si_box {
+    width: 90%;
+  }
+  .tg_box {
+    width: 90%;
+  }
+  .cgb_1 {
+    flex-direction: column;
+    align-items: center !important;
+  }
+  .cgb_1 .search_input {
+    margin-bottom: 0.5rem;
+  }
+  .cg_div .carousel-control-prev {
+    top: 47px;
+    left: 18px;
+  }
+  .cg_div .carousel-control-next {
+    top: 47px;
+    right: 18px;
+  }
+  .cg_content p {
+    font-size: 0.5rem;
+  }
 }
 
-@media (max-width:375px) {
-    .cg_div .carousel-control-prev {
-        top: 47px;
-        left: 10px;
-    }
-    .cg_div .carousel-control-next {
-        top: 47px;
-        right: 10px;
-    }
+@media (max-width: 388px) {
+  .gang10_box > .gtext_border {
+    margin-right: 5px;
+  }
+}
+
+@media (max-width: 375px) {
+  .cg_div .carousel-control-prev {
+    top: 47px;
+    left: 10px;
+  }
+  .cg_div .carousel-control-next {
+    top: 47px;
+    right: 10px;
+  }
 }
