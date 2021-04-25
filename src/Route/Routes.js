@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import Gang from "../Pages/Gang";
 import Home from "../Pages/Home";
 import InventoryGame from "../Pages/InventoryGame";
 import LibertyPreserve from "../Pages/LibertyPreserve";
@@ -25,6 +26,9 @@ const Routes = () => {
           </Route>
           <Route exact path="/properties">
             <Properties />
+          </Route>
+          <Route exact path="/gang">
+            <Gang />
           </Route>
         </Switch>
       </Router>
