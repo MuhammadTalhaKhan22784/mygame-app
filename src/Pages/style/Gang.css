@@ -377,10 +377,10 @@ input:focus {
     width: 100%;
   }
   .si_box {
-    width: 90%;
+    width: 97%;
   }
   .tg_box {
-    width: 90%;
+    width: 97%;
   }
   .cgb_1 {
     flex-direction: column;
@@ -400,13 +400,30 @@ input:focus {
   .cg_content p {
     font-size: 0.5rem;
   }
+  /* .search_input {
+    width: 90%;
+  } */
+  /* .search_input input {
+    padding-left: 20px;
+    text-align: left;
+  } */
 }
 
-@media (max-width: 388px) {
+/* @media (max-width: 388px) {
   .gang10_box > .gtext_border {
     margin-right: 5px;
   }
-}
+  .gang_left {
+    width: 92%;
+  }
+  .jg_box {
+    padding: 7px 5px 11px 5px;
+  }
+  .si_box {
+    width: 97%;
+  }
+  .si_box
+} */
 
 @media (max-width: 375px) {
   .cg_div .carousel-control-prev {
