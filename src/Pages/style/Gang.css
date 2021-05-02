@@ -23,7 +23,7 @@ input:focus {
   height: 90vh;
   display: flex;
   align-items: flex-start;
-  background-image: url("../../assets/travelbg.jpg");
+  background-image: url("../../assets/gang\ background.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -58,6 +58,14 @@ input:focus {
   flex-direction: column;
   padding: 5px 0;
   /* align-items: center; */
+}
+
+.si_box p {
+  margin-bottom: 0;
+  font-size: 0.8rem;
+  color: #87aeb0;
+  text-align: center;
+  margin-top: 10px;
 }
 
 .si_box > div {

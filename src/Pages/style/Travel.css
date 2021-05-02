@@ -60,7 +60,7 @@
   width: 100%;
   height: 88.7vh;
   background-size: cover;
-  background-image: url("../../assets/travelbg.jpg");
+  background-image: url("../../assets/travel\ background.png");
   display: flex;
   flex-direction: column;
   align-items: center;

@@ -1,0 +1,259 @@
+.o_main {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-image: url("../../assets/gang\ background.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.o_content {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.o_tabs {
+  width: 230px;
+  margin-top: 0.4rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.o_tabs button {
+  background-color: black;
+  color: white;
+  border: none;
+  font-size: 0.8rem;
+  width: 100px;
+  height: 30px;
+  font-family: "Syne Mono", monospace;
+}
+
+.overview_box {
+  width: 100%;
+  height: max-content;
+  display: flex;
+  background-color: #343236a1;
+  margin-top: 0.4rem;
+}
+
+.obox_1 {
+  width: 70%;
+  padding-left: 10px;
+}
+
+.obox_title {
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.obox_title h2 {
+  margin: 0;
+  font-size: 1rem;
+  color: #c2c1c6;
+  font-family: "Bebas Neue", cursive;
+}
+
+.obox_head {
+  width: 100%;
+  margin: 5px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.obox_head h2 {
+  margin: 0;
+  font-family: "Bebas Neue", cursive;
+}
+
+.obox_head span {
+  font-size: 0.8rem;
+  color: #c2c1c6;
+  font-family: "Syne Mono", monospace;
+}
+
+.obox_list {
+  width: 100%;
+  display: flex;
+}
+
+.obox_list ol {
+  width: 100%;
+  padding-left: 0rem;
+  height: 190px;
+  overflow-y: scroll;
+  color: #c2c1c6;
+  font-family: "Bebas Neue", cursive;
+}
+
+.obox_list ol li {
+  list-style-position: inside;
+  /* display: flex; */
+  padding: 3px 5px;
+  margin: 0.2rem 0;
+  font-family: "Syne Mono", monospace;
+}
+
+.obox_list ol li span {
+  margin-right: 10px;
+}
+
+.olist_content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3px 0;
+  margin: 0.3rem 0;
+}
+
+.olist_content span {
+  color: #c2c1c6;
+}
+
+.obox_2 {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.oCard {
+  width: 90%;
+  height: 32vh;
+  display: flex;
+  background-repeat: no-repeat;
+  flex-direction: column;
+  background: linear-gradient(to bottom, #0000009e, #000000a3, #000000bf),
+    url("../../assets/p_buildingL.png");
+  background-size: 100% 100%;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.oCard h2 {
+  margin: 0;
+  font-size: 1rem;
+  color: white;
+  font-family: "Syne Mono", monospace;
+}
+
+.oe_card {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px 0;
+}
+
+.oe_card span {
+  font-size: 0.8rem;
+  color: #c2c1c6;
+  font-family: "Syne Mono", monospace;
+}
+
+.oe_card h2 {
+  margin: 0;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 2px;
+}
+
+.oe_card button {
+  width: 60%;
+  padding: 5px 0;
+  border: none;
+  background-color: #02020c;
+  color: white;
+  font-size: 0.8rem;
+  font-family: "Syne Mono", monospace;
+}
+
+.expense_card {
+  background-color: #732f30;
+}
+
+.vault_card {
+  background-color: #384e37;
+}
+
+.o_buttons {
+  width: 90%;
+  margin: 3px auto;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.o_buttons button {
+  width: 100px;
+  padding: 8px 10px;
+  border: none;
+  background-color: #02020c;
+  color: white;
+  font-size: 0.8rem;
+  font-family: "Syne Mono", monospace;
+}
+
+.olistbg_yellow {
+  background-color: #603d21;
+}
+
+.olistbg_gray {
+  background-color: #5e5d62;
+}
+
+.olistbg_red {
+  background-color: #5e191c;
+}
+
+.mr_10px {
+  margin-right: 10px;
+}
+
+@media (max-width: 464px) {
+  .o_content {
+    width: 96%;
+  }
+  .overview_box {
+    flex-direction: column;
+  }
+  .o_main {
+    height: 100%;
+  }
+  .obox_1 {
+    width: 100%;
+    padding: 0 10px;
+  }
+  .obox_2 {
+    width: 73%;
+    padding: 0 10px;
+    margin: 0 auto;
+  }
+  .oCard {
+    width: 100%;
+  }
+  .oe_card {
+    width: 100%;
+    padding: 16px 0;
+  }
+  .oe_card span {
+    font-size: 1rem;
+  }
+  .oe_card button {
+    width: 100px;
+  }
+  .o_buttons {
+    justify-content: center;
+    margin: 15px auto;
+  }
+}

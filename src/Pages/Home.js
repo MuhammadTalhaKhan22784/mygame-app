@@ -7,7 +7,7 @@ const Home = () => {
     <div className="d-flex flex-column w-50">
       <button
         type="button"
-        className="btn btn-secondary"
+        className="btn btn-secondary ms-5"
         onClick={() => {
           history.push("/liberty_preserve");
         }}
@@ -49,6 +49,15 @@ const Home = () => {
         }}
       >
         gang
+      </button>
+      <button
+        type="button"
+        className="btn btn-success ms-5"
+        onClick={() => {
+          history.push("/gang-overview");
+        }}
+      >
+        gang overview
       </button>
     </div>
   );

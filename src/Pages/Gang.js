@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./style/Gang.css";
 import { AiOutlineSearch } from "react-icons/ai";
 import pBuildings from "../assets/p_buildings.png";
@@ -6,6 +6,7 @@ import greenArrow from "../assets/arrow1.svg";
 import redArrow from "../assets/arrow2.svg";
 
 const Gang = () => {
+  const [show, setShow] = useState(false);
   return (
     <React.Fragment>
       <div className="gang_nav">
@@ -27,7 +28,18 @@ const Gang = () => {
                   <input input type="text" placeholder="Enter Gang Tag" />
                 </div>
               </div>
-              <button className="sr_btn">SEND REQUEST</button>
+              {show === false ? (
+                <button
+                  className="sr_btn"
+                  onClick={() => {
+                    setShow(true);
+                  }}
+                >
+                  SEND REQUEST
+                </button>
+              ) : (
+                <p>your request is send to x x x</p>
+              )}
             </div>
             <div className="tg_box">
               <h6>TOTAL GANGS:</h6>
