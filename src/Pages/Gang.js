@@ -4,9 +4,11 @@ import { AiOutlineSearch } from "react-icons/ai";
 import pBuildings from "../assets/p_buildings.png";
 import greenArrow from "../assets/arrow1.svg";
 import redArrow from "../assets/arrow2.svg";
+import { useHistory } from "react-router";
 
 const Gang = () => {
   const [show, setShow] = useState(false);
+  const history = useHistory();
   return (
     <React.Fragment>
       <div className="gang_nav">
@@ -65,7 +67,14 @@ const Gang = () => {
                   Praesentium quo perferendis.
                 </p>
                 <div className="cg_c_bottom">
-                  <button className="create_btn">CREATE</button>
+                  <button
+                    className="create_btn"
+                    onClick={() => {
+                      history.push("/gang-overview");
+                    }}
+                  >
+                    CREATE
+                  </button>
                   <h5>$500</h5>
                 </div>
               </div>

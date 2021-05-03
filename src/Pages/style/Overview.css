@@ -184,7 +184,7 @@
 }
 
 .vault_card {
-  background-color: #384e37;
+  background-color: #3f8e3b9e;
 }
 
 .o_buttons {
@@ -205,15 +205,15 @@
 }
 
 .olistbg_yellow {
-  background-color: #603d21;
+  background: linear-gradient(to bottom, #0e0d0d4d, #a75f26, #bd500f78);
 }
 
 .olistbg_gray {
-  background-color: #5e5d62;
+  background: linear-gradient(to bottom, #9d9ba56b, #5e5d62d1, #5e5d62a3);
 }
 
 .olistbg_red {
-  background-color: #5e191c;
+  background: linear-gradient(to bottom, #a9191970, #5e191c, #9c1b2ddb);
 }
 
 .mr_10px {
@@ -255,5 +255,11 @@
   .o_buttons {
     justify-content: center;
     margin: 15px auto;
+  }
+}
+
+@media (max-width: 400px) {
+  .oCard {
+    height: 27vh;
   }
 }

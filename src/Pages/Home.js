@@ -50,7 +50,7 @@ const Home = () => {
       >
         gang
       </button>
-      <button
+      {/* <button
         type="button"
         className="btn btn-success ms-5"
         onClick={() => {
@@ -58,7 +58,7 @@ const Home = () => {
         }}
       >
         gang overview
-      </button>
+      </button> */}
     </div>
   );
 };
