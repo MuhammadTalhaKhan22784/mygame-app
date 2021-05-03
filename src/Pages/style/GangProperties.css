@@ -47,7 +47,7 @@
 .gp_hero {
   width: 90%;
   margin: 0 auto;
-  height: 300px;
+  height: 307px;
   display: flex;
   flex-direction: column;
   background-color: #343236a1;
@@ -137,6 +137,7 @@
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 10px;
 }
 
 .gp_bottom button {
@@ -160,13 +161,32 @@
   font-weight: bold;
 }
 
+.gangmission_btn {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin-top: 15px; */
+}
+
+.gangmission_btn button {
+  width: 80%;
+  height: 35px;
+  color: white;
+  font-weight: bold;
+  font-family: "Syne Mono", monospace;
+  background-color: #00000c;
+  border: none;
+}
+
 @media (max-width: 600px) {
   .gp_bottom {
     flex-direction: column;
     margin: 16px auto;
   }
   .gp_hero {
-    height: max-content;
+    height: max-content !important;
   }
   .gp_bottom button {
     height: 35px;
@@ -192,4 +212,19 @@
   .gp_table tr td {
     font-size: 0.9rem;
   }
+}
+
+@media (max-width: 410px) {
+  .gangmission_btn button {
+    width: 90%;
+  }
+  .gp_hero {
+    height: 100%;
+  }
+  .gp_table {
+    height: 100%;
+  }
+  /* .gp_main {
+    padding-bottom: 10px;
+  } */
 }

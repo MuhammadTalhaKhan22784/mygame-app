@@ -205,7 +205,7 @@
 }
 
 .olistbg_yellow {
-  background: linear-gradient(to bottom, #0e0d0d4d, #a75f26, #bd500f78);
+  background: linear-gradient(to bottom, #0e0d0d4d, #d0742ce3, #bd500f78);
 }
 
 .olistbg_gray {
@@ -213,7 +213,7 @@
 }
 
 .olistbg_red {
-  background: linear-gradient(to bottom, #a9191970, #5e191c, #9c1b2ddb);
+  background: linear-gradient(to bottom, #a9191970, #bd3339, #9c1b2ddb);
 }
 
 .mr_10px {

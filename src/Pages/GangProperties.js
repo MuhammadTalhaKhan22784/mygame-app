@@ -128,6 +128,9 @@ const GangProperties = () => {
             <button style={{ backgroundColor: "#0E0D12" }}>BUY MAX</button>
             <button style={{ backgroundColor: "#450203" }}>BUY MAX</button>
           </div>
+          <div className="gangmission_btn">
+            <button>GANG MISSION COMMING SOON</button>
+          </div>
         </div>
       </div>
     </React.Fragment>
