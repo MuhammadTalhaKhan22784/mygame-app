@@ -24,7 +24,6 @@
 }
 
 .o_tabs button {
-  background-color: black;
   color: white;
   border: none;
   font-size: 0.8rem;
@@ -205,7 +204,7 @@
 }
 
 .olistbg_yellow {
-  background: linear-gradient(to bottom, #0e0d0d4d, #d0742ce3, #bd500f78);
+  background: linear-gradient(to bottom, #0e0d0d4d, #c56c26e3, #bd500f78);
 }
 
 .olistbg_gray {
@@ -213,7 +212,7 @@
 }
 
 .olistbg_red {
-  background: linear-gradient(to bottom, #a9191970, #bd3339, #9c1b2ddb);
+  background: linear-gradient(to bottom, #a9191970, #bd33398f, #9c1b2ddb);
 }
 
 .mr_10px {
@@ -221,8 +220,12 @@
 }
 
 @media (max-width: 464px) {
+  .o_tabs {
+    margin: 0.4rem auto 0 auto;
+  }
   .o_content {
     width: 96%;
+    margin: 20px auto;
   }
   .overview_box {
     flex-direction: column;

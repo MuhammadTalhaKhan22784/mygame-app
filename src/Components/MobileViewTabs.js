@@ -74,7 +74,7 @@ const MobileViewTabs = () => {
             </div>
             <div className="mbv-arrow">
               <button>
-                <HiOutlineChevronDoubleRight />
+                MORE
               </button>
             </div>
           </div>

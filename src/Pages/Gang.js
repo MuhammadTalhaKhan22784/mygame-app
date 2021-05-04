@@ -20,12 +20,12 @@ const Gang = () => {
           <div className="jg_box">
             <div className="si_box">
               <div>
-                <div className="search_input">
+                {/* <div className="search_input">
                   <button type="button" className="btn">
                     <AiOutlineSearch />
                   </button>
                   <input type="search" placeholder="Search Gang" />
-                </div>
+                </div> */}
                 <div className="search_input si_2 ">
                   <input input type="text" placeholder="Enter Gang Tag" />
                 </div>
@@ -50,14 +50,14 @@ const Gang = () => {
               <span>x x x</span>
             </div>
           </div>
-          <h2 className="fs-5 fw-bold text-white">CREATE GANG</h2>
+          <h2 className="fs-5 fw-bold text-white">ENTER GANG</h2>
           <div className="cg_box">
             <div className="cgb_1">
               <div className="search_input si_2 ">
                 <input input type="text" placeholder="Enter Gang Tag" />
               </div>
               <div className="search_input si_2 ">
-                <input input type="text" placeholder="Enter Gang Tag" />
+                <input input type="text" placeholder="Enter Gang Name" />
               </div>
             </div>
             <div className="cg_div">

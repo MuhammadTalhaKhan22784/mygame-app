@@ -75,7 +75,7 @@ input:focus {
   justify-content: space-between;
   align-items: center;
   padding: 11px 0;
-  height: 80px;
+  height: max-content;
   background-color: #252429;
 }
 

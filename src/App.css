@@ -104,14 +104,17 @@
     text-align: end;
     font-size: 1rem;
   }
-  .mbv-arrow svg {
+  /* .mbv-arrow svg {
     font-size: 1.5rem !important;
     color: #000;
-  }
+  } */
   .mbv-arrow button {
-    background-color: #ececec;
-    border: none;
-    box-shadow: 0px 2px 2px 1px #ad9ea3;
+    color: white;
+    width: 75px;
+    margin-right: 10px;
+    height: 30px;
+    font-size: 0.8rem;
+    background-color: black;    border: none;
   }
   .main_tabs .arrow_icon button {
     width: 120% !important;
@@ -119,32 +122,46 @@
 }
 @media (max-width: 473px) {
   .mbv-arrow {
-    width: 20%;
+    width: unset !important;
   }
   .users_list {
     height: 16%;
   }
+  .main_details_box {
+    display: flex;
+    justify-content: space-between;
+  }
+  .user_info {
+    margin-left: 0 !important;
+  }
+  .user_info h2 {
+    font-size: 0.8rem !important;
+  }
 }
+
 @media (max-width: 425px) {
   .main_tabs .main_box {
     height: max-content;
     width: 76%;
   }
-  .mbv-arrow {
+  /* .mbv-arrow {
     width: 18%;
-  }
+  } */
 }
 @media (max-width: 383px) {
-  .mbv-arrow {
+  /* .mbv-arrow {
     width: 17%;
-  }
+  } */
   .mbv-arrow svg {
     font-size: 2rem !important;
   }
+  .main_tabs h2 {
+    font-size: 0.8rem !important;
+  }
 }
-@media (max-width: 333px) {
-  .mbv-arrow {
-    width: 16%;
+@media (max-width: 333px) { 
+  .user_info h2 {
+    font-size: 0.7rem !important;
   }
 }
 
