@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+button {
+  cursor: pointer !important;
+}
+
 .cus_r:focus {
   box-shadow: none !important;
   background-color: rgb(204, 204, 204) !important;
@@ -114,7 +118,8 @@
     margin-right: 10px;
     height: 30px;
     font-size: 0.8rem;
-    background-color: black;    border: none;
+    background-color: #05050f;
+    border: none;
   }
   .main_tabs .arrow_icon button {
     width: 120% !important;
@@ -159,7 +164,7 @@
     font-size: 0.8rem !important;
   }
 }
-@media (max-width: 333px) { 
+@media (max-width: 333px) {
   .user_info h2 {
     font-size: 0.7rem !important;
   }

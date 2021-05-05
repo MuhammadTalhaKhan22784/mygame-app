@@ -2,6 +2,7 @@ import React from "react";
 import { HiOutlineChevronDoubleRight } from "react-icons/hi";
 import UserListBox from "./UserListBox";
 import DumpAllBtn from "../assets/mobiledumpall.png";
+import { Link } from "react-router-dom";
 
 const MobileViewTabs = () => {
   return (
@@ -73,9 +74,9 @@ const MobileViewTabs = () => {
               <h2 className="fs-6">Cost: 20$</h2>
             </div>
             <div className="mbv-arrow">
-              <button>
-                MORE
-              </button>
+              <Link className="text-decoration-none" to="#">
+                <button>MOVE</button>
+              </Link>
             </div>
           </div>
           {/* <div className="dump_btn_box">

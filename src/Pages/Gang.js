@@ -89,7 +89,7 @@ const Gang = () => {
                     <img src={pBuildings} className="d-block w-100" alt="..." />
                   </div>
                   <div className="carousel-item">
-                    <img src="" className="d-block w-100" alt="none" />
+                    <img src="" className="text-white d-block w-100" alt="none" />
                   </div>
                   <div className="carousel-item">
                     <img src={pBuildings} className="d-block w-100" alt="..." />
