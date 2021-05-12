@@ -2,12 +2,13 @@ import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Gang from "../Pages/Gang";
 import GangProperties from "../Pages/GangProperties";
-import Home from "../Pages/Home";
+import Main from "../Pages/Main";
 import InventoryGame from "../Pages/InventoryGame";
 import LibertyPreserve from "../Pages/LibertyPreserve";
 import Overview from "../Pages/Overview";
 import Properties from "../Pages/Properties";
 import Travel from "../Pages/Travel";
+import Home from "../Pages/Home";
 
 const Routes = () => {
   return (
@@ -15,7 +16,7 @@ const Routes = () => {
       <Router>
         <Switch>
           <Route exact path="/">
-            <Home />
+            <Main />
           </Route>
           <Route exact path="/liberty_preserve">
             <LibertyPreserve />
@@ -37,6 +38,9 @@ const Routes = () => {
           </Route>
           <Route exact path="/gang-properties">
             <GangProperties />
+          </Route>
+          <Route exact path="/home">
+            <Home />
           </Route>
         </Switch>
       </Router>
