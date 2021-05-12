@@ -2,6 +2,9 @@
   width: 100%;
   display: flex;
   flex-wrap: wrap;
+  padding: 57px 50px 0 50px;
+  background-color: #232020e6;
+  /* #232020e6 */
 }
 
 .h_box1 {
@@ -21,6 +24,7 @@
 
 .h_text {
   width: 100%;
+  background-color: #000000e6;
 }
 
 .h_text p {
@@ -28,6 +32,7 @@
   margin: 24px auto;
   text-align: center;
   font-size: 1;
+  color: white;
 }
 
 /*  */
@@ -42,7 +47,7 @@
 
 .h_img1 img {
   width: 100%;
-  height: 250px;
+  height: 200px;
 }
 
 .h_img2 {
@@ -51,7 +56,7 @@
 
 .h_img2 img {
   width: 100%;
-  height: 220px;
+  height: 200px;
 }
 
 .h_img3 {
@@ -60,9 +65,8 @@
 
 .h_img3 img {
   width: 100%;
-  height: 333px;
+  height: 200px;
 }
-
 
 /*  */
 
@@ -75,16 +79,17 @@
 .h_table {
   width: 100%;
   padding: 0 20px;
-  background-color: #464646;
+  text-align: center;
+  background-color: #0000004f;
 }
 
 .h_table h2 {
   text-align: center;
-  color: white;
+  color: #3fd4bf;
 }
 
 .h_table thead {
-  color: #756751;
+  color: #de9726;
 }
 
 .h_table tbody th {
@@ -92,11 +97,15 @@
 }
 
 .h_table tbody tr {
-  color: #756751;
+  color: #3fd4bf;
+  border-color: #de9726;
 }
 
 .h_tlabel span {
-    font-size: 0.9rem;
+  font-size: 0.9rem;
+  color: white;
+  cursor: pointer;
+  /* #BCB48D */
 }
 
 .h_form {
@@ -104,6 +113,28 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #000000e6;
+}
+
+.h_form button {
+  background-color: #72faec;
+  color: black;
+  font-weight: bold;
+}
+
+.h_form form {
+  width: 80%;
+}
+
+.h_form form h2 {
+  color: white !important;
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+.h_form form label {
+  font-size: 0.9rem;
+  color: #72faec;
 }
 
 .h_add {
@@ -112,7 +143,7 @@
 
 .h_add img {
   width: 100%;
-  height: 200px;
+  height: 120px;
 }
 
 @media (max-width: 768px) {
@@ -124,20 +155,29 @@
     padding: 0 10px;
   }
   .h_box2 {
-      margin:1rem auto;
-      width: 100%;
-      display: flex;
+    margin: 1rem auto;
+    width: 100%;
+    display: flex;
   }
   .h_box2 img {
-      width: 98%;
-      height: 100%;
-      object-fit: contain;
+    width: 98%;
+    height: 100%;
+    object-fit: contain;
   }
   .h_box3 {
-      width: 98%;
-      margin:1rem auto;
+    width: 98%;
+    margin: 1rem auto;
   }
   .h_form {
-    margin:1rem auto;
+    margin: 1rem auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .home_main {
+    padding: 57px 10px 0 10px;
+  }
+  .h_form input {
+    width: 63% !important;
   }
 }
