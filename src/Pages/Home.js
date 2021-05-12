@@ -26,7 +26,7 @@ const Home = () => {
           <iframe
             src="https://discord.com/widget?id=804478573778829313&theme=dark"
             width="100%"
-            height="310px"
+            height="320px"
             allowtransparency="true"
             frameborder="0"
             sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
@@ -45,93 +45,67 @@ const Home = () => {
         </div>
         <div className="h_box3">
           <div className="h_table">
-            <h2>Top Players X X X</h2>
-            <table className="table">
-              <thead>
-                <tr>
-                  <th scope="col">#</th>
-                  <th scope="col">Player Name</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <th scope="row">1</th>
-                  <td>Mark</td>
-                </tr>
-                <tr>
-                  <th scope="row">2</th>
-                  <td>Mark</td>
-                </tr>
-                <tr>
-                  <th scope="row">3</th>
-                  <td>Mark</td>
-                </tr>
-              </tbody>
-            </table>
+            <h2>Top Players: X X X</h2>
+            <h2>Players online: X X X</h2>
           </div>
           <div className="h_form">
             <form>
-              <h2>{show === false ? "Sign up" : "Login"}</h2>
-              <div
-                className={
-                  show === false
-                    ? "mb-3 d-flex justify-content-between align-items-center"
-                    : "d-none"
-                }
-              >
+              <h2>{show === false ? "Sign up" : show === true ? "Login" : "Forgot Password"}</h2>
+              <div className={show === false ? "mb-2" : "d-none"}>
                 <label htmlFor="exampleInputName1" className="form-label">
                   Full Name
                 </label>
                 <input
                   type="text"
-                  className="form-control ms-2 w-75"
+                  className="form-control"
                   id="exampleInputName1"
                 />
               </div>
-              <div className="mb-3 d-flex justify-content-between align-items-center">
+              <div className="mb-2">
                 <label htmlFor="exampleInputEmail1" className="form-label">
                   Email address
                 </label>
                 <input
                   type="email"
-                  className="form-control ms-2 w-75"
+                  className="form-control"
                   id="exampleInputEmail1"
                   aria-describedby="emailHelp"
                 />
               </div>
-              <div className="mb-3 d-flex justify-content-between align-items-center">
+              <div className={show === false || show === true ? "mb-2" : "d-none"}>
                 <label htmlFor="exampleInputPassword1" className="form-label">
                   Password
                 </label>
                 <input
                   type="password"
-                  className="form-control ms-2 w-75"
+                  className="form-control"
                   id="exampleInputPassword1"
                 />
               </div>
-              <div className="h_tlabel d-flex align-items-center justify-content-between w-100">
+              <div className="h_tlabel">
                 {show === false ? (
                   <span>
-                    already an account?{" "}
+                    Already have an account?
                     <strong
                       className="text-primary"
                       onClick={() => {
                         setShow(true);
                       }}
                     >
+                      {" "}
                       Login
                     </strong>
                   </span>
                 ) : (
                   <span>
-                    don't have an account?{" "}
+                    Have you forgotten your <br />
                     <strong
                       className="text-primary"
                       onClick={() => {
-                        setShow(false);
+                        setShow("forgot");
                       }}
                     >
-                      Sign up
+                      username or password
                     </strong>
                   </span>
                 )}
@@ -139,6 +113,23 @@ const Home = () => {
                 <button type="button" className="btn">
                   Submit
                 </button>
+
+                {show === false ? (
+                  <span></span>
+                ) : (
+                  <span>
+                    Do you wish to register <br />
+                    for a{" "}
+                    <strong
+                      className="text-primary"
+                      onClick={() => {
+                        setShow(false);
+                      }}
+                    >
+                      new account?
+                    </strong>
+                  </span>
+                )}
               </div>
             </form>
             <div className="h_add">

@@ -1,14 +1,15 @@
 .home_main {
   width: 100%;
+  height: 100%;
   display: flex;
   flex-wrap: wrap;
-  padding: 57px 50px 0 50px;
-  background-color: #232020e6;
+  padding: 57px 68px 0 68px;
+  background-color: black;
   /* #232020e6 */
 }
 
 .h_box1 {
-  width: 30%;
+  width: 35%;
   display: flex;
   flex-direction: column;
   padding-left: 5px;
@@ -24,7 +25,7 @@
 
 .h_text {
   width: 100%;
-  background-color: #000000e6;
+  background-color: #464141;
 }
 
 .h_text p {
@@ -38,7 +39,7 @@
 /*  */
 
 .h_box2 {
-  width: 30%;
+  width: 25%;
 }
 
 .h_img1 {
@@ -71,7 +72,7 @@
 /*  */
 
 .h_box3 {
-  width: 40%;
+  width: 35%;
   display: flex;
   flex-direction: column;
 }
@@ -86,6 +87,7 @@
 .h_table h2 {
   text-align: center;
   color: #3fd4bf;
+  font-size: 1.3rem;
 }
 
 .h_table thead {
@@ -101,10 +103,18 @@
   border-color: #de9726;
 }
 
+.h_tlabel {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .h_tlabel span {
   font-size: 0.9rem;
   color: white;
   cursor: pointer;
+  margin: 1rem 0;
   /* #BCB48D */
 }
 
@@ -113,17 +123,37 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #000000e6;
+  background-color: #464141;
+}
+
+.h_form input {
+  width: 100% !important;
+  border-left: none;
+  background: none;
+  border-top: none;
+  border-right: none;
+  color: white !important;
+  border-bottom-left-radius: initial;
+  border-bottom-right-radius: initial;
+}
+
+.h_form input:focus {
+  background: transparent;
+  outline: none;
+  box-shadow: none;
 }
 
 .h_form button {
   background-color: #72faec;
   color: black;
   font-weight: bold;
+  width: 100%;
+  margin-top: 1rem;
 }
 
 .h_form form {
   width: 80%;
+  margin: 0 auto;
 }
 
 .h_form form h2 {
@@ -135,6 +165,7 @@
 .h_form form label {
   font-size: 0.9rem;
   color: #72faec;
+  margin-bottom: 0 !important;
 }
 
 .h_add {
@@ -143,7 +174,7 @@
 
 .h_add img {
   width: 100%;
-  height: 120px;
+  height: 139px;
 }
 
 @media (max-width: 768px) {
@@ -176,8 +207,5 @@
 @media (max-width: 600px) {
   .home_main {
     padding: 57px 10px 0 10px;
-  }
-  .h_form input {
-    width: 63% !important;
   }
 }
