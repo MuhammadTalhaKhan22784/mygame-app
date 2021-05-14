@@ -44,44 +44,99 @@ const Home = () => {
           </div>
         </div>
         <div className="h_box3">
-          <div className="h_table">
+          {/* <div className="h_table">
             <h2>Top Players: X X X</h2>
             <h2>Players online: X X X</h2>
-          </div>
+          </div> */}
           <div className="h_form">
             <form>
-              <h2>{show === false ? "Sign up" : show === true ? "Login" : "Forgot Password"}</h2>
-              <div className={show === false ? "mb-2" : "d-none"}>
-                <label htmlFor="exampleInputName1" className="form-label">
-                  Full Name
-                </label>
-                <input
-                  type="text"
-                  className="form-control"
-                  id="exampleInputName1"
-                />
-              </div>
-              <div className="mb-2">
-                <label htmlFor="exampleInputEmail1" className="form-label">
-                  Email address
-                </label>
-                <input
-                  type="email"
-                  className="form-control"
-                  id="exampleInputEmail1"
-                  aria-describedby="emailHelp"
-                />
-              </div>
-              <div className={show === false || show === true ? "mb-2" : "d-none"}>
-                <label htmlFor="exampleInputPassword1" className="form-label">
-                  Password
-                </label>
-                <input
-                  type="password"
-                  className="form-control"
-                  id="exampleInputPassword1"
-                />
-              </div>
+              <h2>
+                {show === false
+                  ? "Register your new account"
+                  : show === true
+                  ? "Login to your account"
+                  : "Forgot Password"}
+              </h2>
+              {show === false ? (
+                <>
+                  <div className="mb-2">
+                    <label htmlFor="exampleInputName1" className="form-label">
+                      Full Name
+                    </label>
+                    <input
+                      type="text"
+                      className="form-control"
+                      id="exampleInputName1"
+                      placeholder="Enter full name"
+                    />
+                  </div>
+                  <div className="mb-2">
+                    <label htmlFor="exampleInputEmail1" className="form-label">
+                      Email address
+                    </label>
+                    <input
+                      type="email"
+                      className="form-control"
+                      id="exampleInputEmail1"
+                      placeholder="Enter your email"
+                    />
+                  </div>
+                  <div className="mb-2">
+                    <label
+                      htmlFor="exampleInputPassword1"
+                      className="form-label"
+                    >
+                      Password
+                    </label>
+                    <input
+                      type="password"
+                      className="form-control"
+                      id="exampleInputPassword1"
+                      placeholder="Enter your password"
+                    />
+                  </div>
+                </>
+              ) : show === true ? (
+                <>
+                  <div className="mb-2">
+                    <label htmlFor="exampleInputEmail2" className="form-label">
+                      Email address
+                    </label>
+                    <input
+                      type="email"
+                      className="form-control"
+                      id="exampleInputEmail2"
+                      placeholder="Enter your email"
+                    />
+                  </div>
+                  <div className="mb-2">
+                    <label
+                      htmlFor="exampleInputPassword1"
+                      className="form-label"
+                    >
+                      Password
+                    </label>
+                    <input
+                      type="password"
+                      className="form-control"
+                      id="exampleInputPassword1"
+                      placeholder="Enter your password"
+                    />
+                  </div>
+                </>
+              ) : (
+                <div className="mb-2">
+                  <label htmlFor="exampleInputEmail2" className="form-label">
+                    Email address
+                  </label>
+                  <input
+                    type="email"
+                    className="form-control"
+                    id="exampleInputEmail2"
+                    placeholder="Enter your email"
+                    />
+                </div>
+              )}
               <div className="h_tlabel">
                 {show === false ? (
                   <span>
@@ -111,7 +166,7 @@ const Home = () => {
                 )}
 
                 <button type="button" className="btn">
-                  Submit
+                  {show === false ? "Register" : show === true ? "Login" : "submit"}
                 </button>
 
                 {show === false ? (
@@ -133,7 +188,10 @@ const Home = () => {
               </div>
             </form>
             <div className="h_add">
-              <img src={hImg1} alt="..." />
+              <img
+              
+              style={{height: show === false ? "171px" : show === true ? "176px" : "246px"}}
+              src={hImg1} alt="..." />
             </div>
           </div>
         </div>

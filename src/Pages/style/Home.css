@@ -25,7 +25,7 @@
 
 .h_text {
   width: 100%;
-  background-color: #464141;
+  background-image: url("../../assets/h_bg1.webp");
 }
 
 .h_text p {
@@ -86,21 +86,8 @@
 
 .h_table h2 {
   text-align: center;
-  color: #3fd4bf;
+  color: #C57E00;
   font-size: 1.3rem;
-}
-
-.h_table thead {
-  color: #de9726;
-}
-
-.h_table tbody th {
-  color: white;
-}
-
-.h_table tbody tr {
-  color: #3fd4bf;
-  border-color: #de9726;
 }
 
 .h_tlabel {
@@ -112,7 +99,7 @@
 
 .h_tlabel span {
   font-size: 0.9rem;
-  color: white;
+  color: #C57E00;
   cursor: pointer;
   margin: 1rem 0;
   /* #BCB48D */
@@ -123,12 +110,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #464141;
+  background-image: url("../../assets/h_bg1.webp");
 }
 
 .h_form input {
   width: 100% !important;
   border-left: none;
+  padding: 6px 0;
   background: none;
   border-top: none;
   border-right: none;
@@ -144,27 +132,33 @@
 }
 
 .h_form button {
-  background-color: #72faec;
-  color: black;
+  background-color: transparent;
+  color: #C57E00;
   font-weight: bold;
-  width: 100%;
+  width: max-content;
   margin-top: 1rem;
+  font-size: 1.3rem;
+}
+
+.h_form button:hover {
+  color: white;
 }
 
 .h_form form {
   width: 80%;
   margin: 0 auto;
+  padding-top: 1.5rem;
 }
 
 .h_form form h2 {
-  color: white !important;
+  color: white;
   font-size: 1.2rem;
   margin-top: 10px;
 }
 
 .h_form form label {
   font-size: 0.9rem;
-  color: #72faec;
+  color: #C57E00;
   margin-bottom: 0 !important;
 }
 
@@ -174,7 +168,7 @@
 
 .h_add img {
   width: 100%;
-  height: 139px;
+  /* height: 139px; */
 }
 
 @media (max-width: 768px) {
