@@ -44,10 +44,7 @@ const Home = () => {
           </div>
         </div>
         <div className="h_box3">
-          {/* <div className="h_table">
-            <h2>Top Players: X X X</h2>
-            <h2>Players online: X X X</h2>
-          </div> */}
+         
           <div className="h_form">
             <form>
               <h2>
@@ -190,7 +187,7 @@ const Home = () => {
             <div className="h_add">
               <img
               
-              style={{height: show === false ? "171px" : show === true ? "176px" : "246px"}}
+              style={{height: show === false ? "167px" : show === true ? "173px" : "244px"}}
               src={hImg1} alt="..." />
             </div>
           </div>
