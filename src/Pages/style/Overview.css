@@ -204,15 +204,15 @@
 }
 
 .olistbg_yellow {
-  background: linear-gradient(to bottom, #0e0d0d4d, #c56c26e3, #bd500f78);
+  background: #c56c26e3;
 }
 
 .olistbg_gray {
-  background: linear-gradient(to bottom, #9d9ba56b, #5e5d62d1, #5e5d62a3);
+  background: #5e5d62d1;
 }
 
 .olistbg_red {
-  background: linear-gradient(to bottom, #a9191970, #bd33398f, #9c1b2ddb);
+  background: #732f30;
 }
 
 .mr_10px {

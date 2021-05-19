@@ -53,6 +53,7 @@ const Overview = () => {
                     <h2>Gang Name</h2>
                     <h2>1st</h2>
                   </div>
+               
                   <div className="obox_head">
                     <div>
                       <h2 className="fs-6 text-white">MEMBER LIST</h2>
@@ -117,6 +118,7 @@ const Overview = () => {
                       </li>
                     </ol>
                   </div>
+               
                 </div>
                 <div className="obox_2">
                   <div className="oCard">

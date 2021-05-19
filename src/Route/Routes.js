@@ -9,6 +9,8 @@ import Overview from "../Pages/Overview";
 import Properties from "../Pages/Properties";
 import Travel from "../Pages/Travel";
 import Home from "../Pages/Home";
+import BuySell from "../Pages/BuySell";
+import Street2 from "../Pages/Street2";
 
 const Routes = () => {
   return (
@@ -41,6 +43,12 @@ const Routes = () => {
           </Route>
           <Route exact path="/home">
             <Home />
+          </Route>
+          <Route exact path="/buy-sell">
+            <BuySell />
+          </Route>
+          <Route exact path="/street2">
+            <Street2 />
           </Route>
         </Switch>
       </Router>
