@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import pbuildings from "../assets/p_buildings.png";
+import LocalWork from "./LocalWork";
 import Street2 from "./Street2";
-import "./style/BuySell.css";
-const BuySell = () => {
+import "./style/Street.css";
+const Street1 = () => {
   const [show, setShow] = useState("1");
   const listData = [
     {
@@ -164,12 +165,14 @@ const BuySell = () => {
               <button style={{ backgroundColor: "#450203" }}>SELL MAX</button>
             </div>
           </>
-        ) : (
+        ) : show === "2" ? (
           <Street2 />
+        ) : (
+          <LocalWork />
         )}
       </div>
     </React.Fragment>
   );
 };
 
-export default BuySell;
+export default Street1;

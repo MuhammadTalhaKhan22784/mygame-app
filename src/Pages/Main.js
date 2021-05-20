@@ -59,6 +59,15 @@ const Home = () => {
       >
         Home
       </button>
+      <button
+        type="button"
+        className="btn btn-success ms-5"
+        onClick={() => {
+          history.push("/street");
+        }}
+      >
+        Street
+      </button>
     </div>
   );
 };

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import pbuildings from "../assets/p_buildings.png";
-import "./style/BuySell.css";
+import "./style/Street.css";
 const Street2 = () => {
   const [show, setShow] = useState(false);
   return (
@@ -82,8 +82,8 @@ const Street2 = () => {
             </>
           ) : (
             <div className="d-flex align-items-center flex-column w-100 h-100">
-              <span style={{ color: "#2eb12e", fontSize:"1rem",fontWeight:"bold" }}>Success</span>
-              <div className="d-flex justify-content-between w-100">
+              <span style={{ color: "#2eb12e", fontSize:"3rem",fontWeight:"bold" }}>Success</span>
+              <div className="mt-2 d-flex justify-content-between w-100">
                 <div className="d-flex flex-column w-50 align-items-center">
                   <span style={{ color: "#65bda9" }}>+$5000</span>
                   <span style={{ color: "#65bda9" }}>+Item 1</span>

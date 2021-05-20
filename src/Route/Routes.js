@@ -9,7 +9,7 @@ import Overview from "../Pages/Overview";
 import Properties from "../Pages/Properties";
 import Travel from "../Pages/Travel";
 import Home from "../Pages/Home";
-import BuySell from "../Pages/BuySell";
+import Street1 from "../Pages/Street1";
 import Street2 from "../Pages/Street2";
 
 const Routes = () => {
@@ -44,8 +44,8 @@ const Routes = () => {
           <Route exact path="/home">
             <Home />
           </Route>
-          <Route exact path="/buy-sell">
-            <BuySell />
+          <Route exact path="/street">
+            <Street1 />
           </Route>
           <Route exact path="/street2">
             <Street2 />
